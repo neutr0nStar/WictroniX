@@ -1,0 +1,39 @@
+.root {
+    /* height: calc(100vh - 8rem); */
+    margin-block: 1rem;
+    width: 100vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease-out;
+}
+
+.title {
+    font-family: nexa, sans;
+    font-size: 8rem;
+    font-weight: 700;
+    font-variant: small-caps;
+    transition: all 1s ease-out;
+    animation: titleAni 1s ease-out;
+}
+
+
+
+@keyframes titleAni {
+    from {
+        transform: scale(2);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 3rem;
+    }
+}

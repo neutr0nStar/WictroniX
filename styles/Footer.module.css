@@ -1,0 +1,61 @@
+.root {
+    width: 100vw;
+    overflow: hidden;
+    background-color: #0059FF;
+    margin-top: -1rem;
+    border-radius: 1rem 1rem 0 0;
+    padding: 3rem 2rem 4rem 2rem;
+    min-height: 20rem;
+    color: white;
+    background-image: url('../public/images/ocean.svg');
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 5rem;
+}
+
+.logoContainerm, .linksContainer, .socialContainer {
+    flex: 1;    
+}
+
+.socialContainer {
+    flex: 2;
+}
+
+.linksContainer {
+    max-width: 99rem;
+    display: flex;
+    flex-direction: column;
+}
+/* 
+.linksContainer > div {
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+} */
+
+.linksContainer h2 {
+    margin-block: 0.5rem;
+}
+
+.linksContainer a {
+    color: white;
+    text-decoration: none;
+    line-height: 1.8rem;
+}
+
+@media (max-width: 768px) {
+    .root {
+        padding: 1;
+        flex-direction: column;
+    }
+
+    .logo {
+        height: 2rem;
+        width: auto;
+    }
+}

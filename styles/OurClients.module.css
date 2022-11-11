@@ -1,0 +1,60 @@
+.root {
+    background-color: white;
+    width: 100%;
+    margin-top: -1rem;
+    border-radius: 1rem 1rem 0 0;
+    padding: 3rem;
+}
+
+.title {
+    font-size: 5rem;
+    font-weight: bold;
+    background-image: var(--gradient);
+    color: transparent;
+    background-clip: text;
+    text-align: center;
+    margin-block: 4rem;
+}
+
+
+.logoContainer {
+    margin-top: 4rem;
+    width: 80%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logoImage {
+    width: 250px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.marqueeContainer {
+    width: 80%;
+    margin-top: 3rem;
+    margin-inline: auto;
+}
+
+
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 3rem;
+    }
+
+    .logoContainer {
+        width: 80%;
+        flex-direction: column;
+    }
+    .logoImage {
+        width: 50vw;
+        height: auto;
+        margin-block-end: 2rem;
+    }
+    .marqueeContainer {
+        width: 90%;
+        height: 400px;
+    }
+}

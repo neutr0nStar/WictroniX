@@ -1,17 +1,11 @@
-import Head from "next/head";
+import Image from "next/image";
 import React from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
-
-import Intro from "../components/Intro";
-import MainContainer from "../components/MainContainer";
-import Navbar from "../components/Navbar";
-import OurArsenal from "../components/OurArsenal";
-import OurClients from "../components/OurClients";
-import ParallaxSeg from "../components/ParallaxSeg";
-import styles from "../styles/Home.module.css";
-import ConnectWithUs from "../components/ConnectWithUs";
+import AnimatedPageTitle from "../components/AnimatedPageTitle";
+import Aos from "aos";
 import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+import styles from "../styles/Execution.module.css";
+import ParallaxSeg from "../components/ParallaxSeg";
 
 import bubbles from "../public/images/bubbles.svg";
 import bubblesStatic from "../public/images/bubblesStatic.svg";
@@ -19,35 +13,35 @@ import particles from "../public/images/particles.svg";
 import particlesStatic from "../public/images/particlesStatic.svg";
 import speedline from "../public/images/speedlineDark.svg";
 import speedlineStatic from "../public/images/speedlineStatic.svg";
-import Image from "next/image";
 
-export default function Home() {
+import Head from "next/head";
+
+export default function Execution() {
+  const [loading, setLoading] = React.useState(true);
   const [isMobile, setIsMobile] = React.useState(true);
+
   React.useEffect(() => {
     setIsMobile(window.innerWidth < 768);
-    AOS.init({
-      duration: 500,
-    });
-    window.scrollTo(0, 0);
+    Aos.init();
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
   }, []);
-
   return (
     <div
       className={styles.root}
-      style={{ backgroundSize: isMobile ? "cover" : "" }}
+      style={{
+        overflow: loading ? "hidden" : "",
+      }}
     >
       <Head>
-        <title>WictroniX</title>
-        <meta name="description" content="WictroniX Infotech Pvt. Ltd." />
-        <link rel="icon" href="/favicon.ico" />
+        <title>eXecution - WictroniX</title>
+        <meta name="description" content="eXecution WictroniX" />
       </Head>
-      <Navbar delay={7000} />
-      <Intro />
-      <MainContainer />
-
-      {/* Magical segment */}
-      <div className={styles.magical}>
-        <div data-aos="fade-down">Our Magical Spells</div>
+      <Navbar delay={1000} />
+      <AnimatedPageTitle>eXecution</AnimatedPageTitle>
+      <div className={styles.rootContainer}>
+        <div className={styles.rootTitle}>Where Ideas Meet Execution.</div>
       </div>
       <ParallaxSeg bgImg={isMobile ? bubblesStatic : bubbles}>
         <div className={styles.title}>
@@ -79,7 +73,7 @@ export default function Home() {
         <div className={styles.content}>
           <Image
             src={require("../public/images/innovation.png")}
-            width={200}
+            width={isMobile ? 100 : 200}
             xFactor
             alt="innovation"
           />
@@ -122,7 +116,7 @@ export default function Home() {
         <div className={styles.content}>
           <Image
             src={require("../public/images/analysis.png")}
-            width={200}
+            width={isMobile ? 100 : 200}
             alt="xFactor"
           />
           <div>
@@ -148,7 +142,7 @@ export default function Home() {
         <div className={styles.content}>
           <Image
             src={require("../public/images/integration.png")}
-            width={200}
+            width={isMobile ? 100 : 200}
             alt="Integration"
           />
           <div>
@@ -166,7 +160,7 @@ export default function Home() {
         <div className={styles.content}>
           <Image
             src={require("../public/images/growth.png")}
-            width={200}
+            width={isMobile ? 100 : 200}
             alt="xFactor"
           />
           <div>
@@ -177,11 +171,6 @@ export default function Home() {
           </div>
         </div>
       </ParallaxSeg>
-
-      <OurArsenal />
-      <OurClients />
-      <ConnectWithUs />
-
       <Footer />
     </div>
   );

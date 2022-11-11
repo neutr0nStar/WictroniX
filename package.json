@@ -9,9 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@typeform/embed-react": "^2.2.0",
+    "aos": "^2.3.4",
+    "apexcharts": "^3.36.0",
     "next": "13.0.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-apexcharts": "^1.4.0",
+    "react-dom": "18.2.0",
+    "react-quotes-slider": "^1.0.1",
+    "react-responsive-carousel": "^3.2.23",
+    "react-simple-typewriter": "^4.0.5",
+    "sass": "^1.55.0"
   },
   "devDependencies": {
     "eslint": "8.26.0",

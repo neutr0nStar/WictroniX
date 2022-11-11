@@ -1,0 +1,71 @@
+.root {
+    background-image: url('../public/images/fieldsStatic.svg');
+    /* overflow: hidden; */
+    background-position-x: center;
+}
+
+.rootContainer {
+    min-height: 50vh;
+    width: 100%;
+    background-color: white;
+    border-radius: 1rem 1rem 0 0;
+    padding: 4rem
+}
+
+.rootTitle {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-block: 3rem;
+    background-image: var(--gradient);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    animation: titleAni 1s;
+    animation-delay: 1s;
+}
+
+
+.title {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-top: 3rem;
+    color: white;
+}
+
+.content {
+    color: white;
+    margin-top: 3rem;
+    max-width: 90%;
+    margin-inline: auto;
+    line-height: 1.75rem;
+    display: flex;
+    align-items: center;
+}
+
+.content > div {
+    margin-left: 1rem;
+}
+
+@keyframes titleAni {
+    from {
+        transform: scale(2);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 3rem;
+    }
+
+    .content {
+        flex-direction: column;
+        height: 800px;
+    }
+}

@@ -1,0 +1,107 @@
+.root {
+    background-image: url('../public/images/fieldsStatic.svg');
+    /* overflow: hidden; */
+    background-position-x: center;
+}
+
+.rootContainer {
+    min-height: 80vh;
+    width: 100%;
+    background-color: white;
+    border-radius: 1rem 1rem 0 0;
+    padding: 4rem
+}
+
+.title {
+    font-size: 5rem;
+    font-weight: 600;
+    margin-block: 3rem;
+    background-image: var(--gradient);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    animation: titleAni 1s;
+    animation-delay: 1s;
+}
+
+.contactForm {
+    flex: 3;
+    display: "flex";
+    /* background-color:  #ddd; */
+    background-image: url('../public/images/fieldsStatic.svg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(4px);
+    border-radius: 2rem;
+    color: white;
+}
+
+.inpEle {
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: none
+}
+
+.sub {
+    width: min-content;
+    padding: 1rem 3rem;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 1rem;
+    margin-inline: auto;
+}
+
+.contactDetails {
+    flex: 1;
+    margin: 0 3rem;
+    padding: 1rem;
+    background-image: url('../public/images/fieldsStatic.svg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 2rem;
+    color: white;
+}
+
+.contactLink {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+@keyframes titleAni {
+    from {
+        transform: scale(2);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 3rem;
+    }
+
+    .rootContainer {
+        padding: 1rem;
+    }
+
+    .contactForm {
+        width: 90vw;
+        margin-bottom: 2rem;
+        flex: 1;
+    }
+
+    .contactDetails {
+        width: 90vw;
+        margin-block: 1rem;
+        margin-inline: 0;
+    }
+}
