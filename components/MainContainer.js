@@ -1,6 +1,7 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import styles from "../styles/MainContainer.module.css";
+import Quotes from "./Quotes";
 
 export default function MainContainer() {
   const [loading, setLoading] = React.useState(true);
@@ -27,6 +28,7 @@ export default function MainContainer() {
             “The people who are crazy enough to think they can change the world
             are the ones who actually do.” - Steve Jobs
           </div>
+          {/* <Quotes /> */}
         </section>
         {/* <section className={styles.contentSection}>What we do/provide</section> */}
         <br />

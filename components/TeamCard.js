@@ -12,7 +12,6 @@ export default function TeamCard({
   linkedin = "https://www.linkedin.com/company/wictronix/",
   twitter = "https://www.twitter.com/wictronix/",
   instagram = "https://www.instagram.com/wictronix/",
-  facebook = "https://www.facebook.com/wictronix/",
 }) {
   const router = useRouter();
   return (
@@ -47,13 +46,6 @@ export default function TeamCard({
             <Image
               src={require("../public/images/instagram.png")}
               alt="instagram"
-              style={{ height: "25px", width: "25px" }}
-            />
-          </Link>
-          <Link href={facebook}>
-            <Image
-              src={require("../public/images/facebook.png")}
-              alt="facebook"
               style={{ height: "25px", width: "25px" }}
             />
           </Link>

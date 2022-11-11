@@ -19,11 +19,10 @@ export default function Footer() {
       </div>
       <div className={styles.linksContainer}>
         <h2>Links</h2>
-        <Link href="/">Home</Link>
-        <Link href="/execution">eXecution</Link>
-        <Link href="/about">About</Link>
-        <Link href="/contact">Contact</Link>
-        <Link href="/">Lets Integrate</Link>
+        <div style={{ marginTop: "0.5rem" }}>Privacy Policy</div>
+        <div style={{ marginTop: "0.5rem" }}>Tearms and Conditions</div>
+        <div style={{ marginTop: "0.5rem" }}>Gallery</div>
+        <div style={{ marginTop: "0.5rem" }}>FAQs</div>
       </div>
       <div className={styles.socialContainer}>
         <h2>Connect with Us</h2>

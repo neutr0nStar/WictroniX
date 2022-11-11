@@ -48,7 +48,7 @@ export default function About() {
             color: "white",
           }}
         >
-          <div className={styles.title} style={{ color: "white" }}>
+          <div className={styles.title} style={{ color: "black" }}>
             Our WHY
           </div>
           <div
@@ -65,7 +65,7 @@ export default function About() {
             }}
           >
             <Image
-              src={require("../public/images/wxWhite.svg")}
+              src={require("../public/images/wxBlack.svg")}
               alt="placeholder"
               width={isMobile ? "250" : "300"}
               style={{
@@ -73,14 +73,17 @@ export default function About() {
                 marginBlock: isMobile ? "2rem" : "auto",
               }}
             />
-            There are eccentrics, outcasts, rebels, troublemakers, square pegs
-            in round holes, with a different vision, and a burning desire to
-            challenge the Status Quo who go for greatness.
-            <br />
-            <br /> We respect those legends and consider ourselves honored if we
-            get an opportunity to be a part of their journey of creating an
-            Unparalleled Legacy. These passionate legends motivate us to strive
-            for greatness by inspiring us to go beyond our comfort zones.
+            <div style={{ color: "black" }}>
+              There are eccentrics, outcasts, rebels, troublemakers, square pegs
+              in round holes, with a different vision, and a burning desire to
+              challenge the Status Quo who go for greatness.
+              <br />
+              <br /> We respect those legends and consider ourselves honored if
+              we get an opportunity to be a part of their journey of creating an
+              Unparalleled Legacy. These passionate legends motivate us to
+              strive for greatness by inspiring us to go beyond our comfort
+              zones.
+            </div>
           </div>
         </div>
         <br />
@@ -96,8 +99,14 @@ export default function About() {
             <TeamCard
               imgSrc={require("../public/images/People/CEO.jpeg")}
               name="Mihir Gandhi"
-              position="Chief Executive Officer"
+              position="Founder & CEO"
               email="mailto:ceo@wictronix.com"
+            />
+            <TeamCard
+              imgSrc={require("../public/images/People/CMO.jpeg")}
+              name="Sunil Kumar Poonia"
+              position="Co Founder & CMO"
+              email="mailto:cmo@wictronix.com"
             />
             <TeamCard
               imgSrc={require("../public/images/People/CTO.jpeg")}
@@ -106,28 +115,22 @@ export default function About() {
               email="mailto:cto@wictronix.com"
             />
             <TeamCard
-              imgSrc={require("../public/images/People/CMO.jpeg")}
-              name="Sunil Kumar Poonia"
-              position="Chief Marketing Officer"
-              email="mailto:cmo@wictronix.com"
-            />
-            <TeamCard
               imgSrc={require("../public/images/People/CSO.jpeg")}
               name="Karnik Gandhi"
               position="Chief Strategy Officer"
               email="mailto:cso@wictronix.com"
             />
             <TeamCard
-              imgSrc={require("../public/images/People/CFO.jpeg")}
-              name="Darshan Upadhyay"
-              position="Chief Finance Officer"
-              email="mailto:cfo@wictronix.com"
-            />
-            <TeamCard
               imgSrc={require("../public/images/People/COO.jpeg")}
               name="Nehal Jhajharia"
               position="Chief Operations Officer"
               email="mailto:coo@wictronix.com"
+            />
+            <TeamCard
+              imgSrc={require("../public/images/People/CFO.jpeg")}
+              name="Darshan Upadhyay"
+              position="Chief Finance Officer"
+              email="mailto:cfo@wictronix.com"
             />
           </div>
         </div>

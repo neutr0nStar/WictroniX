@@ -39,7 +39,9 @@ export default function Execution() {
         <meta name="description" content="eXecution WictroniX" />
       </Head>
       <Navbar delay={1000} />
-      <AnimatedPageTitle>eXecution</AnimatedPageTitle>
+      <AnimatedPageTitle>
+        e<span styles={{ color: "yellow" }}>X</span>ecution
+      </AnimatedPageTitle>
       <div className={styles.rootContainer}>
         <div className={styles.rootTitle}>Where Ideas Meet Execution.</div>
       </div>
@@ -74,7 +76,6 @@ export default function Execution() {
           <Image
             src={require("../public/images/innovation.png")}
             width={192}
-            xFactor
             alt="innovation"
           />
           When the winds of change blow, some people build walls and others

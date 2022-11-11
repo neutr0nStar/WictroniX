@@ -61,6 +61,10 @@
 
 @media (max-width: 768px) {
     .title {
+        font-size: 2rem;
+    }
+
+    .rootTitle {
         font-size: 3rem;
     }
 

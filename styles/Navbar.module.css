@@ -8,6 +8,7 @@
     z-index: 100;
     position: sticky;
     top: 0;
+    font-variant: small-caps;
 }
 
 .rootExtended {
@@ -20,9 +21,11 @@
     z-index: 100;
     position: sticky;
     top: 0;
+    font-variant: small-caps;
 }
 
 .container {
+    margin-right: -0.75rem;
     width: 80vw;
     height: 4rem;
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3));
@@ -35,6 +38,7 @@
 }
 
 .containerExtended {
+    margin-right: -0.75rem;
     width: 80vw;
     height: 20rem;
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3));
@@ -118,6 +122,8 @@
     transition: all 250ms ease-out;
     cursor: pointer;
     font-weight: 600;
+    display: flex;
+    align-items: center;
 }
 
 .cta:hover {

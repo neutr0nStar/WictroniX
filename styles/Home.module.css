@@ -12,7 +12,7 @@
     margin-top: -1rem;
     border-radius: 1rem 1rem 0 0;
     color: white;
-    background-image: url('../public/images/bubbles.svg');
+    background-image: url('../public/images/particles.svg');
     background-attachment: fixed;
 }
 
@@ -28,8 +28,8 @@
 .content {
     color: white;
     margin-top: 3rem;
-    max-width: 90%;
-    margin-inline: auto;
+    max-width: 100%;
+    margin-inline: 0rem;
     line-height: 1.75rem;
     display: flex;
     align-items: center;
@@ -60,6 +60,6 @@
 
     .magical {
         font-size: 2rem;
-    background-image: url('../public/images/bubblesStatic.svg');
+    background-image: url('../public/images/particlesStatic.svg');
     }
 }
