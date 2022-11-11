@@ -1,6 +1,6 @@
 .root {
     width: 100%;
-    height: 120vh;
+    height: 80vh;
     /* background-image: url('../public/images/gifer.gif'); */
     background-attachment: fixed;
     border-radius: 1rem 1rem 0 0;
@@ -32,6 +32,9 @@
 }
 
 @media (max-width: 768px) {
+    .root {
+        height: 120vh;
+    }
     .title {
         font-size: 2rem;
         margin-top: 1rem;

@@ -77,6 +77,7 @@ export default function Footer() {
         style={{
           position: "absolute",
           bottom: "5px",
+          left: "0",
           width: "100%",
           color: "white",
           textAlign: "center",

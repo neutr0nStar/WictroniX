@@ -53,7 +53,7 @@ export default function Home() {
         <div className={styles.title}>
           The{" "}
           <span
-            style={{ color: "#FECD05", fontSize: isMobile ? "3rem" : "5rem" }}
+            style={{ color: "#FECD05", fontSize: isMobile ? "2rem" : "5rem" }}
           >
             X
           </span>
@@ -79,7 +79,7 @@ export default function Home() {
         <div className={styles.content}>
           <Image
             src={require("../public/images/innovation.png")}
-            width={200}
+            width={192}
             xFactor
             alt="innovation"
           />
@@ -122,7 +122,7 @@ export default function Home() {
         <div className={styles.content}>
           <Image
             src={require("../public/images/analysis.png")}
-            width={200}
+            width={192}
             alt="xFactor"
           />
           <div>
@@ -148,7 +148,7 @@ export default function Home() {
         <div className={styles.content}>
           <Image
             src={require("../public/images/integration.png")}
-            width={200}
+            width={192}
             alt="Integration"
           />
           <div>
@@ -166,7 +166,7 @@ export default function Home() {
         <div className={styles.content}>
           <Image
             src={require("../public/images/growth.png")}
-            width={200}
+            width={192}
             alt="xFactor"
           />
           <div>

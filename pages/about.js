@@ -67,7 +67,7 @@ export default function About() {
             <Image
               src={require("../public/images/wxWhite.svg")}
               alt="placeholder"
-              width={isMobile ? "280" : "300"}
+              width={isMobile ? "250" : "300"}
               style={{
                 marginRight: "3rem",
                 marginBlock: isMobile ? "2rem" : "auto",
@@ -97,37 +97,37 @@ export default function About() {
               imgSrc={require("../public/images/People/CEO.jpeg")}
               name="Mihir Gandhi"
               position="Chief Executive Officer"
-              email="ceo@wictronix.com"
+              email="mailto:ceo@wictronix.com"
             />
             <TeamCard
               imgSrc={require("../public/images/People/CTO.jpeg")}
               name="Sneharsh Belsare"
               position="Chief Technology Officer"
-              email="cto@wictronix.com"
+              email="mailto:cto@wictronix.com"
             />
             <TeamCard
               imgSrc={require("../public/images/People/CMO.jpeg")}
               name="Sunil Kumar Poonia"
               position="Chief Marketing Officer"
-              email="cmo@wictronix.com"
+              email="mailto:cmo@wictronix.com"
             />
             <TeamCard
               imgSrc={require("../public/images/People/CSO.jpeg")}
               name="Karnik Gandhi"
               position="Chief Strategy Officer"
-              email="cso@wictronix.com"
+              email="mailto:cso@wictronix.com"
             />
             <TeamCard
               imgSrc={require("../public/images/People/CFO.jpeg")}
               name="Darshan Upadhyay"
               position="Chief Finance Officer"
-              email="cfo@wictronix.com"
+              email="mailto:cfo@wictronix.com"
             />
             <TeamCard
               imgSrc={require("../public/images/People/COO.jpeg")}
               name="Nehal Jhajharia"
               position="Chief Operations Officer"
-              email="coo@wictronix.com"
+              email="mailto:coo@wictronix.com"
             />
           </div>
         </div>

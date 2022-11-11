@@ -56,7 +56,9 @@
     .sfsbfb {
         font-size: 2.0rem;
     }
-
+    .title {
+        font-size: 3rem;
+    }
     .teamCardContainer {
         width: 100%;
     }

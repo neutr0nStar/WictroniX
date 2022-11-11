@@ -360,7 +360,7 @@ export default function Intro() {
         shapeCanvas = document.createElement("canvas"),
         shapeContext = shapeCanvas.getContext("2d"),
         fontSize = 200,
-        fontFamily = "inter, sans";
+        fontFamily = "arial, sans";
 
       function fit() {
         shapeCanvas.width = Math.floor(window.innerWidth / gap) * gap;
