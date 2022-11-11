@@ -7,7 +7,7 @@ export default function ConnectWithUs() {
   return (
     <div className={styles.root}>
       <div className={styles.title}>Connect With Us</div>
-      <p className={styles.content}>
+      <p className={styles.content} style={{ textAlign: "center" }}>
         Now lets join hands to build a better business.
       </p>
       <div

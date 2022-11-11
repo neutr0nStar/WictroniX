@@ -77,10 +77,9 @@ export default function Footer() {
         style={{
           position: "absolute",
           bottom: "5px",
-          left: "50vw",
           width: "100%",
-          transform: "translateX(-15vw)",
           color: "white",
+          textAlign: "center",
         }}
       >
         Copyright © 2022 - <strong>WictroniX</strong>. All rights reserved
