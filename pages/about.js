@@ -42,20 +42,21 @@ export default function About() {
         <br />
         <div
           style={{
-            backgroundColor: "#00b2ff",
+            backgroundColor: "#99e0ff",
             padding: "1rem",
             borderRadius: "1rem",
             color: "white",
           }}
         >
           <div className={styles.title} style={{ color: "black" }}>
-            Our WHY
+            Our Philosophy
           </div>
           <div
             style={{
               width: "75%",
               marginInline: "auto",
               marginBottom: "3rem",
+              paddingBottom: "3rem",
               lineHeight: "1.6rem",
               fontFamily: "verdana",
               fontSize: "1.2rem",
@@ -64,15 +65,6 @@ export default function About() {
               textAlign: isMobile ? "center" : "",
             }}
           >
-            <Image
-              src={require("../public/images/wxBlack.svg")}
-              alt="placeholder"
-              width={isMobile ? "250" : "300"}
-              style={{
-                marginRight: "3rem",
-                marginBlock: isMobile ? "2rem" : "auto",
-              }}
-            />
             <div style={{ color: "black" }}>
               There are eccentrics, outcasts, rebels, troublemakers, square pegs
               in round holes, with a different vision, and a burning desire to
@@ -101,36 +93,50 @@ export default function About() {
               name="Mihir Gandhi"
               position="Founder & CEO"
               email="mailto:ceo@wictronix.com"
+              linkedin="https://www.linkedin.com/in/mihir--gandhi"
+              instagram="https://instagram.com/mihir_1407"
             />
             <TeamCard
               imgSrc={require("../public/images/People/CMO.jpeg")}
               name="Sunil Kumar Poonia"
               position="Co Founder & CMO"
               email="mailto:cmo@wictronix.com"
+              linkedin="https://www.linkedin.com/in/sunil-kumar-poonia"
+              twitter="https://twitter.com/SKPoonia_01"
+              instagram="https://instagram.com/sunilkumarpoonia_01?igshid=YmMyMTA2M2Y="
             />
             <TeamCard
               imgSrc={require("../public/images/People/CTO.jpeg")}
               name="Sneharsh Belsare"
               position="Chief Technology Officer"
               email="mailto:cto@wictronix.com"
+              linkedin="https://www.linkedin.com/in/sneharsh-belsare/"
+              twitter="https://twitter.com/SneharshB"
+              instagram="https://instagram.com/sneharsh_belsare"
             />
             <TeamCard
               imgSrc={require("../public/images/People/CSO.jpeg")}
               name="Karnik Gandhi"
               position="Chief Strategy Officer"
               email="mailto:cso@wictronix.com"
+              linkedin="https://www.linkedin.com/in/karnik-gandhi-89a832256"
+              twitter="https://twitter.com/GandhiKarnik?t=MsXX0ypLlQ7xjIidegP4Iw&s=08"
+              instagram="https://instagram.com/karnik_0909?igshid=YmMyMTA2M2Y="
             />
             <TeamCard
               imgSrc={require("../public/images/People/COO.jpeg")}
               name="Nehal Jhajharia"
               position="Chief Operations Officer"
               email="mailto:coo@wictronix.com"
+              linkedin="https://www.linkedin.com/in/nehal-jhajharia-494999200/"
             />
             <TeamCard
               imgSrc={require("../public/images/People/CFO.jpeg")}
               name="Darshan Upadhyay"
               position="Chief Finance Officer"
               email="mailto:cfo@wictronix.com"
+              linkedin="https://www.linkedin.com/in/thedarshanupadhyay"
+              instagram="https://instagram.com/upadhyay__darshan"
             />
           </div>
         </div>

@@ -37,8 +37,19 @@ export default function Home() {
       style={{ backgroundSize: isMobile ? "cover" : "" }}
     >
       <Head>
-        <title>WictroniX</title>
-        <meta name="description" content="WictroniX Infotech Pvt. Ltd." />
+        <title>Home - WictroniX</title>
+        <meta name="title" content="WictroniX - Integration Is Incredible" />
+        <meta
+          name="description"
+          content="We provide end-to-end integrated execution to startups and businesses and help them become a great company from a good one."
+        />
+        <meta
+          name="keywords"
+          content="wictronix,WictroniX,infotech,technology,build a website, make a website,simple website, build a website for free,freelancers near mesoftware company
+     Web developers near me, Web Development, Content Writing, Graphic Designers, Photo Editing, Business Planning, SEO, WordPress Management, Cloud Management, Logo Designing"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="wictronix" />{" "}
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar delay={7000} />
@@ -52,46 +63,46 @@ export default function Home() {
 
       <ParallaxSeg bgImg={isMobile ? particlesStatic : particles}>
         <div className={styles.title}>
-          Integrated e
+          The{" "}
           <span
-            style={{ color: "#FECD05", fontSize: isMobile ? "3rem " : "5rem" }}
+            style={{ color: "#FECD05", fontSize: isMobile ? "2rem" : "5rem" }}
           >
             X
           </span>
-          ecution
+          -Factor
         </div>
         <div className={styles.content}>
           <Image
-            src={require("../public/images/integration.png")}
-            width={150}
-            alt="Integration"
-          />
-          <div>
-            There is always friction and inefficiency if different types of
-            tasks are assigned to various authorities. However, WictroniX offers
-            integrated execution for all of the procedures, making them quick
-            and effective. Without causing you any worry, we set up a precise
-            and correct framework underneath to enable you to focus on your
-            product.
-          </div>
-        </div>
-      </ParallaxSeg>
-      <ParallaxSeg bgImg={isMobile ? particlesStatic : particles}>
-        <div className={styles.title}>No respect for the Status Quo</div>
-        <div className={styles.content}>
-          <Image
-            src={require("../public/images/growth.png")}
+            src={require("../public/images/x-alphabet.png")}
             width={150}
             alt="xFactor"
           />
           <div>
-            - “Go for Greatness. Everything else is a waste of time.” - Marianne
-            Williamson We believe that greatness begins beyond our comfort zone
-            and we always strive to do so. We push ourselves, innovate and go
-            beyond our limits to achieve something legendary.
+            Performing routine tasks does not make a business exceptional. You
+            must possess a differentiating quality that makes you stand out from
+            your rivals. Here at Wictronix, we always concentrate on looking for
+            what we refer to as the X-Factor. Additionally, it appears right
+            here in our name.
           </div>
         </div>
       </ParallaxSeg>
+      <ParallaxSeg bgImg={isMobile ? particlesStatic : particles}>
+        <div className={styles.title}>Innovation and Creativity</div>
+        <div className={styles.content}>
+          <Image
+            src={require("../public/images/innovation.png")}
+            width={150}
+            alt="innovation"
+            style={{ marginRight: "1rem" }}
+          />
+          When the winds of change blow, some people build walls and others
+          build windmills. Innovation and creativity drives a company from good
+          to great and allows them to remain at the top of game. We are aware of
+          this and see innovation and creativity as integral components of who
+          we are and what we do.
+        </div>
+      </ParallaxSeg>
+
       <ParallaxSeg bgImg={isMobile ? speedlineStatic : speedline}>
         <div
           className={styles.title}
@@ -137,45 +148,47 @@ export default function Home() {
       </ParallaxSeg>
       <ParallaxSeg bgImg={isMobile ? bubblesStatic : bubbles}>
         <div className={styles.title}>
-          The{" "}
+          Integrated e
           <span
-            style={{ color: "#FECD05", fontSize: isMobile ? "2rem" : "5rem" }}
+            style={{ color: "#FECD05", fontSize: isMobile ? "3rem " : "5rem" }}
           >
             X
           </span>
-          -Factor
+          ecution
         </div>
         <div className={styles.content}>
           <Image
-            src={require("../public/images/x-alphabet.png")}
+            src={require("../public/images/integration.png")}
             width={150}
-            alt="xFactor"
+            alt="Integration"
           />
           <div>
-            Performing routine tasks does not make a business exceptional. You
-            must possess a differentiating quality that makes you stand out from
-            your rivals. Here at Wictronix, we always concentrate on looking for
-            what we refer to as the X-Factor. Additionally, it appears right
-            here in our name.
+            There is always friction and inefficiency if different types of
+            tasks are assigned to various authorities. However, WictroniX offers
+            integrated execution for all of the procedures, making them quick
+            and effective. Without causing you any worry, we set up a precise
+            and correct framework underneath to enable you to focus on your
+            product.
           </div>
         </div>
       </ParallaxSeg>
       <ParallaxSeg bgImg={isMobile ? bubblesStatic : bubbles}>
-        <div className={styles.title}>Innovation and Creativity</div>
+        <div className={styles.title}>No respect for the Status Quo</div>
         <div className={styles.content}>
           <Image
-            src={require("../public/images/innovation.png")}
+            src={require("../public/images/growth.png")}
             width={150}
-            alt="innovation"
-            style={{ marginRight: "1rem" }}
+            alt="xFactor"
           />
-          When the winds of change blow, some people build walls and others
-          build windmills. Innovation and creativity drives a company from good
-          to great and allows them to remain at the top of game. We are aware of
-          this and see innovation and creativity as integral components of who
-          we are and what we do.
+          <div>
+            - “Go for Greatness. Everything else is a waste of time.” - Marianne
+            Williamson We believe that greatness begins beyond our comfort zone
+            and we always strive to do so. We push ourselves, innovate and go
+            beyond our limits to achieve something legendary.
+          </div>
         </div>
       </ParallaxSeg>
+
       <br />
       <br />
 

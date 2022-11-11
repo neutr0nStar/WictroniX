@@ -4,10 +4,10 @@
     background-color: #0059FF;
     margin-top: -1rem;
     border-radius: 1rem 1rem 0 0;
-    padding: 3rem 2rem 4rem 2rem;
+    padding: 3rem 2rem 10rem 2rem;
     min-height: 20rem;
     color: white;
-    background-image: url('../public/images/ocean.svg');
+    background-image: url('../public/images/ocean2.svg');
     background-attachment: fixed;
     background-size: cover;
     display: flex;
@@ -26,17 +26,16 @@
     flex: 2;
 }
 
+.socialContainer > h2 {
+    margin-top: -0.25rem;
+}
+
 .linksContainer {
     max-width: 99rem;
     display: flex;
     flex-direction: column;
 }
-/* 
-.linksContainer > div {
-    margin: 0 2rem;
-    display: flex;
-    flex-direction: column;
-} */
+
 
 .linksContainer h2 {
     margin-block: 0.5rem;
@@ -52,6 +51,10 @@
     .root {
         padding: 1;
         flex-direction: column;
+    }
+
+    .socialContainer > h2 {
+        margin-top: 1rem;
     }
 
     .logo {

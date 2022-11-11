@@ -20,6 +20,35 @@ export default function Execution() {
   const [loading, setLoading] = React.useState(true);
   const [isMobile, setIsMobile] = React.useState(true);
 
+  const [tabIdx, setTabIdx] = React.useState(1);
+
+  const content = [
+    {
+      title: "Advanced Technology",
+      body: "Stay tuned. Coming soon.",
+    },
+    {
+      title: "Business Strategy",
+      body: "Stay tuned. Coming soon.",
+    },
+    {
+      title: "Exceptional Marketing",
+      body: "Stay tuned. Coming soon.",
+    },
+    {
+      title: "Great Management",
+      body: "Stay tuned. Coming soon.",
+    },
+    {
+      title: "Good Finance",
+      body: "Stay tuned. Coming soon.",
+    },
+    {
+      title: "Dazzling Contact",
+      body: "Stay tuned. Coming soon.",
+    },
+  ];
+
   React.useEffect(() => {
     setIsMobile(window.innerWidth < 768);
     Aos.init();
@@ -43,135 +72,80 @@ export default function Execution() {
         e<span styles={{ color: "yellow" }}>X</span>ecution
       </AnimatedPageTitle>
       <div className={styles.rootContainer}>
-        <div className={styles.rootTitle}>Where Ideas Meet Execution.</div>
+        <div className={styles.rootTitle}>
+          Where <span style={{ color: "#FECD05" }}>Idea</span> Meet{" "}
+          <span style={{ color: "#00B9ff" }}>Execution</span>.
+        </div>
+        <div className={styles.tabContainer}>
+          <div className={styles.sidebar}>
+            <div
+              className={styles.sbLink}
+              style={{
+                backgroundColor: tabIdx === 1 ? "white" : "#0059FF",
+                color: tabIdx === 1 ? "#0059ff" : "white",
+              }}
+              onClick={() => setTabIdx(1)}
+            >
+              Advanced Technology
+            </div>
+            <div
+              className={styles.sbLink}
+              style={{
+                backgroundColor: tabIdx === 2 ? "white" : "#0059FF",
+                color: tabIdx === 2 ? "#0059ff" : "white",
+              }}
+              onClick={() => setTabIdx(2)}
+            >
+              Business Strategy
+            </div>
+            <div
+              className={styles.sbLink}
+              style={{
+                backgroundColor: tabIdx === 3 ? "white" : "#0059FF",
+                color: tabIdx === 3 ? "#0059ff" : "white",
+              }}
+              onClick={() => setTabIdx(3)}
+            >
+              Exceptional Marketing
+            </div>
+            <div
+              className={styles.sbLink}
+              style={{
+                backgroundColor: tabIdx === 4 ? "white" : "#0059FF",
+                color: tabIdx === 4 ? "#0059ff" : "white",
+              }}
+              onClick={() => setTabIdx(4)}
+            >
+              Great Management
+            </div>
+            <div
+              className={styles.sbLink}
+              style={{
+                backgroundColor: tabIdx === 5 ? "white" : "#0059FF",
+                color: tabIdx === 5 ? "#0059ff" : "white",
+              }}
+              onClick={() => setTabIdx(5)}
+            >
+              Good Finance
+            </div>
+            <div
+              className={styles.sbLink}
+              style={{
+                backgroundColor: tabIdx === 6 ? "white" : "#0059FF",
+                color: tabIdx === 6 ? "#0059ff" : "white",
+              }}
+              onClick={() => setTabIdx(6)}
+            >
+              Dazzling Content
+            </div>
+          </div>
+          <div className={styles.tabContent}>
+            <h1>{content[tabIdx - 1].title}</h1>
+            <p>{content[tabIdx - 1].body}</p>
+          </div>
+        </div>
       </div>
-      <ParallaxSeg bgImg={isMobile ? bubblesStatic : bubbles}>
-        <div className={styles.title}>
-          The{" "}
-          <span
-            style={{ color: "#FECD05", fontSize: isMobile ? "2rem" : "5rem" }}
-          >
-            X
-          </span>
-          -Factor
-        </div>
-        <div className={styles.content}>
-          <Image
-            src={require("../public/images/x-alphabet.png")}
-            width={150}
-            alt="xFactor"
-          />
-          <div>
-            Performing routine tasks does not make a business exceptional. They
-            must possess a differentiating quality that makes them stand out
-            from their rivals. Here at Wictronix, we always concentrate on
-            looking for what we refer to as the X-Factor. Additionally, it
-            appears right here in our name.
-          </div>
-        </div>
-      </ParallaxSeg>
-      <ParallaxSeg bgImg={isMobile ? bubblesStatic : bubbles}>
-        <div className={styles.title}>Innovation and Creativity</div>
-        <div className={styles.content}>
-          <Image
-            src={require("../public/images/innovation.png")}
-            width={192}
-            alt="innovation"
-          />
-          When the winds of change blow, some people build walls and others
-          build windmills. Innovation and creativity drives a company from good
-          to great and allows them to remain at the top of game. We are aware of
-          this and see innovation and creativity as integral components of who
-          we are and what we do.
-        </div>
-      </ParallaxSeg>
 
-      <ParallaxSeg bgImg={isMobile ? speedlineStatic : speedline}>
-        <div
-          className={styles.title}
-          style={{ display: "flex", justifyContent: "center" }}
-        >
-          <div>Speed and Efficiency</div>
-        </div>
-        <div className={styles.content}>
-          <Image
-            src={require("../public/images/rocket.svg")}
-            alt="rocket"
-            style={{
-              height: "10rem",
-              width: "10rem",
-              marginRight: isMobile ? "-1rem" : "1rem",
-              marginBottom: "-2rem",
-            }}
-          />
-          <div>
-            No company wants to be sluggish in todays quick-paced world. Speed
-            and effectiveness are a companys secret weapons for maintaining an
-            advantage over rivals. We believe that on the highways to Greatness,
-            there are no imposed speed restrictions.
-          </div>
-        </div>
-      </ParallaxSeg>
-      <ParallaxSeg bgImg={isMobile ? speedlineStatic : speedline}>
-        <div className={styles.title}>Legendary Business Strategies</div>
-        <div className={styles.content}>
-          <Image
-            src={require("../public/images/analysis.png")}
-            width={192}
-            alt="xFactor"
-          />
-          <div>
-            “Tactics without Strategy is the noise before defeat” - Sun Tzu A
-            strategy helps companies define their businesses and gives them a
-            set of values and a purpose. Great businesses require great
-            strategies, and we develop our business plans by drawing inspiration
-            from outstanding businesses, people, events, and publications.
-          </div>
-        </div>
-      </ParallaxSeg>
-
-      <ParallaxSeg bgImg={isMobile ? particlesStatic : particles}>
-        <div className={styles.title}>
-          Integrated e
-          <span
-            style={{ color: "#FECD05", fontSize: isMobile ? "3rem " : "5rem" }}
-          >
-            X
-          </span>
-          ecution
-        </div>
-        <div className={styles.content}>
-          <Image
-            src={require("../public/images/integration.png")}
-            width={192}
-            alt="Integration"
-          />
-          <div>
-            There is always friction and inefficiency if different types of
-            tasks are assigned to various authorities. However, WictroniX offers
-            integrated execution for all of the procedures, making them quick
-            and effective. Without causing you any worry, we set up a precise
-            and correct framework underneath to enable you to focus on your
-            product.
-          </div>
-        </div>
-      </ParallaxSeg>
-      <ParallaxSeg bgImg={isMobile ? particlesStatic : particles}>
-        <div className={styles.title}>No respect for the Status Quo</div>
-        <div className={styles.content}>
-          <Image
-            src={require("../public/images/growth.png")}
-            width={192}
-            alt="xFactor"
-          />
-          <div>
-            - “Go for Greatness. Everything else is a waste of time.” - Marianne
-            Williamson We believe that greatness begins beyond our comfort zone
-            and we always strive to do so. We push ourselves, innovate and go
-            beyond our limits to achieve something legendary.
-          </div>
-        </div>
-      </ParallaxSeg>
       <Footer />
     </div>
   );

@@ -1,9 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import React from "react";
 import styles from "../styles/Footer.module.css";
 
 export default function Footer() {
+  const router = useRouter();
   const [isMobile, setIsMobile] = React.useState(true);
   React.useEffect(() => {
     setIsMobile(window.innerWidth < 768);
@@ -19,17 +21,64 @@ export default function Footer() {
       </div>
       <div className={styles.linksContainer}>
         <h2>Links</h2>
-        <div style={{ marginTop: "0.5rem" }}>Privacy Policy</div>
-        <div style={{ marginTop: "0.5rem" }}>Tearms and Conditions</div>
-        <div style={{ marginTop: "0.5rem" }}>Gallery</div>
-        <div style={{ marginTop: "0.5rem" }}>FAQs</div>
+        <div
+          style={{ marginTop: "0.5rem" }}
+          onClick={() => {
+            router.push("/about");
+          }}
+        >
+          Our Team
+        </div>
+        {/* <div style={{ marginTop: "0.5rem" }}>FAQs</div> */}
+        {/* <div style={{ marginTop: "0.5rem" }}>Gallery</div> */}
+        <div
+          style={{ marginTop: "0.5rem" }}
+          onClick={() => {
+            router.push("/contact");
+          }}
+        >
+          Join Us
+        </div>
+        <div
+          style={{ marginTop: "0.5rem" }}
+          onClick={() => {
+            router.push("/letsIntegrate");
+          }}
+        >
+          Pricing
+        </div>
       </div>
       <div className={styles.socialContainer}>
         <h2>Connect with Us</h2>
+        <Link
+          href="mailto:info@wictronix.com"
+          style={{ display: "flex", alignItems: "center" }}
+        >
+          <Image
+            src={require("../public/images/email.png")}
+            alt="email"
+            style={{
+              height: "32px",
+              width: "32px",
+              cursor: "pointer",
+            }}
+          />
+          <div
+            style={{
+              marginLeft: "1rem",
+              color: "white",
+              textDecoration: "none",
+              fontSize: "1.2rem",
+            }}
+          >
+            info@wictronix.com
+          </div>
+        </Link>
+
         <div
           style={{
             marginBlock: "2rem",
-            width: isMobile ? "90%" : "60%",
+            width: isMobile ? "90%" : "50%",
             display: "flex",
             justifyContent: "space-between",
           }}
@@ -38,13 +87,6 @@ export default function Footer() {
             <Image
               src={require("../public/images/linkedin.png")}
               alt="LinkedIn"
-              style={{ height: "32px", width: "auto", cursor: "pointer" }}
-            />
-          </Link>
-          <Link href="mailto:info@wictronix.com">
-            <Image
-              src={require("../public/images/email.png")}
-              alt="email"
               style={{ height: "32px", width: "auto", cursor: "pointer" }}
             />
           </Link>
@@ -75,14 +117,18 @@ export default function Footer() {
       <div
         style={{
           position: "absolute",
-          bottom: "5px",
+          bottom: "2rem",
           left: "0",
           width: "100%",
           color: "white",
           textAlign: "center",
         }}
       >
-        Copyright © 2022 - <strong>WictroniX</strong>. All rights reserved
+        <div>
+          Copyright © 2022 - <strong>WictroniX</strong>. All rights reserved
+          <br />
+          Privacy Policy || Disclaimer || Terms of Use
+        </div>
       </div>
     </footer>
   );

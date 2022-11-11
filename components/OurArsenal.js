@@ -24,6 +24,12 @@ export default function OurArsenal() {
           </div>
         </div>
         <div className={styles.tableRow}>
+          <div>Speed & Efficiency</div>
+          <div>
+            <Image src={verified} alt="verified" style={{ height: "20px" }} />
+          </div>
+        </div>
+        <div className={styles.tableRow}>
           <div>Passionate Team</div>
           <div>
             <Image src={verified} alt="verified" style={{ height: "20px" }} />
@@ -42,7 +48,7 @@ export default function OurArsenal() {
           </div>
         </div>
         <div className={styles.tableRow}>
-          <div>Out of Box Marketing</div>
+          <div>Out-of-Box Marketing</div>
           <div>
             <Image src={verified} alt="verified" style={{ height: "20px" }} />
           </div>
@@ -60,13 +66,13 @@ export default function OurArsenal() {
           </div>
         </div>
         <div className={styles.tableRow}>
-          <div>Excellent Management</div>
+          <div>Excellent Financial Management</div>
           <div>
             <Image src={verified} alt="verified" style={{ height: "20px" }} />
           </div>
         </div>
         <div className={styles.tableRow}>
-          <div>Excellent Financial Management</div>
+          <div>Great Graphics</div>
           <div>
             <Image src={verified} alt="verified" style={{ height: "20px" }} />
           </div>

@@ -5,6 +5,7 @@ import AOS from "aos";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import styles from "../styles/Contact.module.css";
+import { Widget } from "@typeform/embed-react";
 
 import wxLogo from "../public/images/wx.svg";
 import Head from "next/head";
@@ -33,7 +34,10 @@ export default function Contact() {
       <Navbar delay={1000} />
       <AnimatedPageTitle>Contact</AnimatedPageTitle>
       <div className={styles.rootContainer}>
-        <div className={styles.title}>Contact Us</div>
+        <div className={styles.title}>
+          <span style={{ color: "#FECD05" }}>Connect.</span> Construct.{" "}
+          <span style={{ color: "#0059ff" }}>Conquer.</span>
+        </div>
         <div
           style={{
             display: "flex",
@@ -188,6 +192,12 @@ export default function Contact() {
             </div>
           </div>
         </div>
+
+        <div className={styles.title}>Join Us</div>
+        <Widget
+          id="kN71lCt8"
+          style={{ width: "90vw", height: "50vh", marginTop: "2rem" }}
+        />
       </div>
       <Footer />
     </div>

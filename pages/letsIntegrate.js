@@ -14,8 +14,10 @@ import TeamCard from "../components/TeamCard";
 
 export default function Contact() {
   const [loading, setLoading] = React.useState(true);
+  const [isMobile, setisMobile] = React.useState(true);
 
   React.useEffect(() => {
+    setisMobile(window.innerWidth < 768);
     setTimeout(() => {
       setLoading(false);
     }, 2000);
@@ -24,16 +26,38 @@ export default function Contact() {
   return (
     <div className={styles.root} style={{ overflow: loading ? "hidden" : "" }}>
       <Head>
-        <title>Lets Integrate - WictroniX</title>
+        <title>Let's Integrate - WictroniX</title>
         <meta name="description" content="Let's Integrate WictroniX" />
       </Head>
       <Navbar delay={1000} />
-      <AnimatedPageTitle>Lets Integrate</AnimatedPageTitle>
+      <AnimatedPageTitle>Let&apos;s Integrate</AnimatedPageTitle>
       <div className={styles.rootContainer}>
         <div className={styles.title}>
-          Lets Integrate to Build Something Great
+          Let&apos;s Integrate to Build Something Great
         </div>
-        <Widget id="jtjoevsq" style={{ height: "90vh" }} />
+        <div
+          style={{
+            textAlign: "center",
+            width: isMobile ? "100%" : "60%",
+            marginInline: "auto",
+          }}
+        >
+          <h2>Pricing</h2>
+          We don&apos;t put a price tag on your dreams. We are very dynamic with
+          our Pricing Models depending on the conditions of the business like
+          liquidity, current growth, future potential, etc. To get and accurate
+          pricing quote, please fill the form below.
+        </div>
+        <br />
+        <br />
+        <Widget
+          id="jtjoevsq"
+          style={{
+            height: "90vh",
+            width: isMobile ? "90vw" : "auto",
+            marginLeft: isMobile ? "-3rem" : "0",
+          }}
+        />
       </div>
       <Footer />
     </div>

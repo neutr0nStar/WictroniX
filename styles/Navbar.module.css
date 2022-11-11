@@ -89,6 +89,7 @@
 
 .navLink:hover {
     color: #FECD05;
+    transform: scale(1.2);
 }
 
 .navLink::after {

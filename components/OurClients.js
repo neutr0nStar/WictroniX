@@ -53,7 +53,7 @@ export default function OurClients() {
       </div>
       {isMobile ? (
         <div className={styles.marqueeContainer}>
-          <Carousel autoPlay infiniteLoop interval={2000}>
+          <Carousel autoPlay infiniteLoop interval={2000} showThumbs={false}>
             <Image
               className={styles.logoImage}
               src={require("../public/images/Logos/aaruni.jpg")}
@@ -96,7 +96,7 @@ export default function OurClients() {
         </div>
       ) : (
         <div className={styles.marqueeContainer}>
-          <Carousel autoPlay infiniteLoop interval={2000}>
+          <Carousel autoPlay infiniteLoop interval={2000} showThumbs={false}>
             <div style={{ display: "flex" }}>
               <Image
                 className={styles.logoImage}

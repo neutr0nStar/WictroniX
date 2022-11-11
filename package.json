@@ -19,6 +19,7 @@
     "react-quotes-slider": "^1.0.1",
     "react-responsive-carousel": "^3.2.23",
     "react-simple-typewriter": "^4.0.5",
+    "react-text-transition": "^3.0.2",
     "sass": "^1.55.0"
   },
   "devDependencies": {

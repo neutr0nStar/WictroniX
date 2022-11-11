@@ -1,7 +1,7 @@
 .root {
     background-color: white;
     width: 100%;
-    margin-top: -1rem;
+    margin-top: -2rem;
     border-radius: 1rem 1rem 0 0;
     padding: 3rem;
 }
@@ -19,7 +19,7 @@
 .tableContainer {
     width: 720px;
     margin-inline: auto;
-    background-color: hsl(219, 100%, 90%);
+    background-color: #ccdeff;
     border-radius: 10px;
     overflow: hidden;
 }

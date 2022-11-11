@@ -77,7 +77,7 @@ export default function Navbar({ delay = 0 }) {
                 className={styles.cta}
                 onClick={() => router.push("/letsIntegrate")}
               >
-                Lets Integrate{" "}
+                Let&apos;s Integrate{" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -160,7 +160,7 @@ export default function Navbar({ delay = 0 }) {
             className={styles.cta}
             onClick={() => router.push("/letsIntegrate")}
           >
-            Lets Integrate{" "}
+            Let&apos;s Integrate{" "}
           </div>
         </div>
       </div>

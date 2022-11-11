@@ -23,13 +23,7 @@ export default function MainContainer() {
         <div className={styles.tagLine}>Integration Is Incredible</div>
         <br />
         <br />
-        <section className={styles.contentSection}>
-          <div className={styles.quote} data-aos="zoom-in-up">
-            “The people who are crazy enough to think they can change the world
-            are the ones who actually do.” - Steve Jobs
-          </div>
-          {/* <Quotes /> */}
-        </section>
+
         {/* <section className={styles.contentSection}>What we do/provide</section> */}
         <br />
         <br />
@@ -49,6 +43,13 @@ export default function MainContainer() {
         </section>
         <br />
         <br />
+        <section className={styles.contentSection}>
+          {/* <div className={styles.quote} data-aos="zoom-in-up">
+            “The people who are crazy enough to think they can change the world
+            are the ones who actually do.” - Steve Jobs
+          </div> */}
+          <Quotes />
+        </section>
       </div>
       <br />
     </div>

@@ -8,7 +8,7 @@ export default function ConnectWithUs() {
     <div className={styles.root}>
       <div className={styles.title}>Connect With Us</div>
       <p className={styles.content} style={{ textAlign: "center" }}>
-        Now lets join hands to build a better business.
+        Now let&apos;s join hands to build a better business.
       </p>
       <div
         className={styles.moreBtn}
@@ -16,7 +16,7 @@ export default function ConnectWithUs() {
           router.push("/letsIntegrate");
         }}
       >
-        Lets Integrate
+        Let&apos;s Integrate
       </div>
     </div>
   );
