@@ -52,20 +52,20 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta name="author" content="wictronix" />{" "}
         <link rel="icon" href="/favicon.ico" />
-        <Script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-3MVHB8B8YG"
-        />
-        <Script>
-          {`
+      </Head>
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-3MVHB8B8YG"
+      />
+      <Script id="gtags">
+        {`
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-3MVHB8B8YG');
   `}
-        </Script>
-      </Head>
+      </Script>
       <Navbar delay={7500} />
       <Intro />
       <MainContainer />
