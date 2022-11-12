@@ -26,7 +26,7 @@ export default function Contact() {
   return (
     <div className={styles.root} style={{ overflow: loading ? "hidden" : "" }}>
       <Head>
-        <title>Let's Integrate - WictroniX</title>
+        <title>Let&apos;s Integrate - WictroniX</title>
         <meta name="description" content="Let's Integrate WictroniX" />
       </Head>
       <Navbar delay={1000} />
