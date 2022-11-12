@@ -146,7 +146,12 @@ export default function About() {
               cxo
             />
             {showMore && (
-              <div style={{ display: "flex" }}>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: isMobile ? "column" : "row",
+                }}
+              >
                 <TeamCard
                   imgSrc={require("../public/images/People/Mohit.jpg")}
                   name="Mohit Doad"
