@@ -146,37 +146,50 @@ export default function About() {
               cxo
             />
             {showMore && (
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: isMobile ? "column" : "row",
-                }}
-              >
-                <TeamCard
-                  imgSrc={require("../public/images/People/Mohit.jpg")}
-                  name="Mohit Doad"
-                  position="Deisgn Head"
-                  email="mohitdoad1234@gmail.com"
-                  linkedin="https://www.linkedin.com/in/mohit-doad-3613431ba"
-                  instagram="https://www.instagram.com/mohit_doad/"
-                />
-                <TeamCard
-                  imgSrc={require("../public/images/People/Rohan.jpeg")}
-                  name="Rohan Verma"
-                  position="Research Head"
-                  email="r0hnvrm4@gmail.com"
-                  linkedin="https://www.linkedin.com/in/rhnvrma/"
-                  twitter="https://mobile.twitter.com/Rhnvrma"
-                  instagram="https://www.instagram.com/rhnvrma/"
-                />
-                <TeamCard
-                  imgSrc={require("../public/images/People/Burhanuddin.jpeg")}
-                  name="Burhanuddin Lokhandwala"
-                  position="Internal Operations Head"
-                  email="burhansvnit4@gmail.com"
-                  linkedin="https://in.linkedin.com/in/burhanuddinlokhandwala04"
-                  instagram="https://instagram.com/burhan____04"
-                />
+              <div>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: isMobile ? "column" : "row",
+                  }}
+                >
+                  <TeamCard
+                    imgSrc={require("../public/images/People/Mohit.jpg")}
+                    name="Mohit Doad"
+                    position="Deisgn Head"
+                    email="mohitdoad1234@gmail.com"
+                    linkedin="https://www.linkedin.com/in/mohit-doad-3613431ba"
+                    instagram="https://www.instagram.com/mohit_doad/"
+                  />
+                  <TeamCard
+                    imgSrc={require("../public/images/People/Ayush.jpeg")}
+                    name="Ayush Daga"
+                    position="Project Manager"
+                    email="ayushdagaeinstein@gmail.com"
+                    linkedin="https://www.linkedin.com/in/ayush-daga-5218421b8"
+                    twitter="https://twitter.com/_ayushdaga_?t=6Vo2-VFJ87qPbHzW5rPOOA&s=08"
+                    instagram="https://instagram.com/ayush_dg1"
+                  />
+                  <TeamCard
+                    imgSrc={require("../public/images/People/Rohan.jpeg")}
+                    name="Rohan Verma"
+                    position="Research Head"
+                    email="r0hnvrm4@gmail.com"
+                    linkedin="https://www.linkedin.com/in/rhnvrma/"
+                    twitter="https://mobile.twitter.com/Rhnvrma"
+                    instagram="https://www.instagram.com/rhnvrma/"
+                  />
+                </div>
+                <div>
+                  <TeamCard
+                    imgSrc={require("../public/images/People/Burhanuddin.jpeg")}
+                    name="Burhanuddin Lokhandwala"
+                    position="Internal Operations Head"
+                    email="burhansvnit4@gmail.com"
+                    linkedin="https://in.linkedin.com/in/burhanuddinlokhandwala04"
+                    instagram="https://instagram.com/burhan____04"
+                  />
+                </div>
               </div>
             )}
             <div
