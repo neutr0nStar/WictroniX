@@ -9,7 +9,7 @@ export default function MainContainer() {
   React.useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 7000);
+    }, 7500);
   }, []);
   return (
     <div

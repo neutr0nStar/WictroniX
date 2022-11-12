@@ -194,11 +194,10 @@ export default function Contact() {
         </div>
 
         <div className={styles.title}>Join Us</div>
-        <Widget
-          id="kN71lCt8"
-          style={{ width: "90vw", height: "50vh", marginTop: "2rem" }}
-        />
+        <Widget id="kN71lCt8" style={{ width: "90vw", height: "50vh" }} />
       </div>
+      <br />
+      <br />
       <Footer />
     </div>
   );

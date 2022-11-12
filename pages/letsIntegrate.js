@@ -54,8 +54,8 @@ export default function Contact() {
           id="jtjoevsq"
           style={{
             height: "90vh",
-            width: isMobile ? "90vw" : "auto",
-            marginLeft: isMobile ? "-3rem" : "0",
+            width: isMobile ? "100%" : "auto",
+            // marginLeft: isMobile ? "-3rem" : "0",
           }}
         />
       </div>

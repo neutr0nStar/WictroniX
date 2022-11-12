@@ -13,6 +13,7 @@ import TeamCard from "../components/TeamCard";
 export default function About() {
   const [loading, setLoading] = React.useState(true);
   const [isMobile, setIsMobile] = React.useState(true);
+  const [showMore, setShowMore] = React.useState(false);
   React.useEffect(() => {
     setIsMobile(window.innerWidth < 768);
     setTimeout(() => {
@@ -95,6 +96,7 @@ export default function About() {
               email="mailto:ceo@wictronix.com"
               linkedin="https://www.linkedin.com/in/mihir--gandhi"
               instagram="https://instagram.com/mihir_1407"
+              cxo
             />
             <TeamCard
               imgSrc={require("../public/images/People/CMO.jpeg")}
@@ -104,6 +106,7 @@ export default function About() {
               linkedin="https://www.linkedin.com/in/sunil-kumar-poonia"
               twitter="https://twitter.com/SKPoonia_01"
               instagram="https://instagram.com/sunilkumarpoonia_01?igshid=YmMyMTA2M2Y="
+              cxo
             />
             <TeamCard
               imgSrc={require("../public/images/People/CTO.jpeg")}
@@ -113,6 +116,7 @@ export default function About() {
               linkedin="https://www.linkedin.com/in/sneharsh-belsare/"
               twitter="https://twitter.com/SneharshB"
               instagram="https://instagram.com/sneharsh_belsare"
+              cxo
             />
             <TeamCard
               imgSrc={require("../public/images/People/CSO.jpeg")}
@@ -122,13 +126,7 @@ export default function About() {
               linkedin="https://www.linkedin.com/in/karnik-gandhi-89a832256"
               twitter="https://twitter.com/GandhiKarnik?t=MsXX0ypLlQ7xjIidegP4Iw&s=08"
               instagram="https://instagram.com/karnik_0909?igshid=YmMyMTA2M2Y="
-            />
-            <TeamCard
-              imgSrc={require("../public/images/People/COO.jpeg")}
-              name="Nehal Jhajharia"
-              position="Chief Operations Officer"
-              email="mailto:coo@wictronix.com"
-              linkedin="https://www.linkedin.com/in/nehal-jhajharia-494999200/"
+              cxo
             />
             <TeamCard
               imgSrc={require("../public/images/People/CFO.jpeg")}
@@ -137,7 +135,53 @@ export default function About() {
               email="mailto:cfo@wictronix.com"
               linkedin="https://www.linkedin.com/in/thedarshanupadhyay"
               instagram="https://instagram.com/upadhyay__darshan"
+              cxo
             />
+            <TeamCard
+              imgSrc={require("../public/images/People/COO.jpeg")}
+              name="Nehal Jhajharia"
+              position="Chief Operating Officer"
+              email="mailto:coo@wictronix.com"
+              linkedin="https://www.linkedin.com/in/nehal-jhajharia-494999200/"
+              cxo
+            />
+            {showMore && (
+              <div style={{ display: "flex" }}>
+                <TeamCard
+                  imgSrc={require("../public/images/People/Mohit.jpg")}
+                  name="Mohit Doad"
+                  position="Deisgn Head"
+                  email="mohitdoad1234@gmail.com"
+                  linkedin="https://www.linkedin.com/in/mohit-doad-3613431ba"
+                  instagram="https://www.instagram.com/mohit_doad/"
+                />
+                <TeamCard
+                  imgSrc={require("../public/images/People/Rohan.jpeg")}
+                  name="Rohan Verma"
+                  position="Research Head"
+                  email="r0hnvrm4@gmail.com"
+                  linkedin="https://www.linkedin.com/in/rhnvrma/"
+                  twitter="https://mobile.twitter.com/Rhnvrma"
+                  instagram="https://www.instagram.com/rhnvrma/"
+                />
+                <TeamCard
+                  imgSrc={require("../public/images/People/Burhanuddin.jpeg")}
+                  name="Burhanuddin Lokhandwala"
+                  position="Internal Operations Head"
+                  email="burhansvnit4@gmail.com"
+                  linkedin="https://in.linkedin.com/in/burhanuddinlokhandwala04"
+                  instagram="https://instagram.com/burhan____04"
+                />
+              </div>
+            )}
+            <div
+              className={styles.viewMore}
+              onClick={() => {
+                setShowMore((prev) => !prev);
+              }}
+            >
+              View {showMore ? "less" : "more"}
+            </div>
           </div>
         </div>
         <br />

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Script from "next/script";
 import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -51,8 +52,21 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta name="author" content="wictronix" />{" "}
         <link rel="icon" href="/favicon.ico" />
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-3MVHB8B8YG"
+        />
+        <Script>
+          {`
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3MVHB8B8YG');
+  `}
+        </Script>
       </Head>
-      <Navbar delay={7000} />
+      <Navbar delay={7500} />
       <Intro />
       <MainContainer />
 
@@ -172,7 +186,10 @@ export default function Home() {
           </div>
         </div>
       </ParallaxSeg>
-      <ParallaxSeg bgImg={isMobile ? bubblesStatic : bubbles}>
+      <ParallaxSeg
+        bgImg={isMobile ? bubblesStatic : bubbles}
+        style={{ marginBottom: isMobile ? "auto" : "4rem" }}
+      >
         <div className={styles.title}>No respect for the Status Quo</div>
         <div className={styles.content}>
           <Image
@@ -189,8 +206,11 @@ export default function Home() {
         </div>
       </ParallaxSeg>
 
-      <br />
-      <br />
+      {isMobile || (
+        <div>
+          <br></br>
+        </div>
+      )}
 
       <OurArsenal />
       <OurClients />

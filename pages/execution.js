@@ -73,7 +73,7 @@ export default function Execution() {
       </AnimatedPageTitle>
       <div className={styles.rootContainer}>
         <div className={styles.rootTitle}>
-          Where <span style={{ color: "#FECD05" }}>Idea</span> Meet{" "}
+          Where <span style={{ color: "#FECD05" }}>Ideas</span> Meet{" "}
           <span style={{ color: "#00B9ff" }}>Execution</span>.
         </div>
         <div className={styles.tabContainer}>
