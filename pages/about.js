@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import AnimatedPageTitle from "../components/AnimatedPageTitle";
 import Aos from "aos";
@@ -6,7 +5,6 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import styles from "../styles/About.module.css";
 
-import wxLogo from "../public/images/wx.svg";
 import Head from "next/head";
 import TeamCard from "../components/TeamCard";
 
@@ -119,13 +117,11 @@ export default function About() {
               cxo
             />
             <TeamCard
-              imgSrc={require("../public/images/People/CSO.jpeg")}
-              name="Karnik Gandhi"
-              position="Chief Strategy Officer"
-              email="mailto:cso@wictronix.com"
-              linkedin="https://www.linkedin.com/in/karnik-gandhi-89a832256"
-              twitter="https://twitter.com/GandhiKarnik?t=MsXX0ypLlQ7xjIidegP4Iw&s=08"
-              instagram="https://instagram.com/karnik_0909?igshid=YmMyMTA2M2Y="
+              imgSrc={require("../public/images/People/COO.jpeg")}
+              name="Nehal Jhajharia"
+              position="Chief Operating Officer"
+              email="mailto:coo@wictronix.com"
+              linkedin="https://www.linkedin.com/in/nehal-jhajharia-494999200/"
               cxo
             />
             <TeamCard
@@ -138,11 +134,13 @@ export default function About() {
               cxo
             />
             <TeamCard
-              imgSrc={require("../public/images/People/COO.jpeg")}
-              name="Nehal Jhajharia"
-              position="Chief Operating Officer"
-              email="mailto:coo@wictronix.com"
-              linkedin="https://www.linkedin.com/in/nehal-jhajharia-494999200/"
+              imgSrc={require("../public/images/People/CSO.jpeg")}
+              name="Karnik Gandhi"
+              position="Chief Strategy Officer"
+              email="mailto:cso@wictronix.com"
+              linkedin="https://www.linkedin.com/in/karnik-gandhi-89a832256"
+              twitter="https://twitter.com/GandhiKarnik?t=MsXX0ypLlQ7xjIidegP4Iw&s=08"
+              instagram="https://instagram.com/karnik_0909?igshid=YmMyMTA2M2Y="
               cxo
             />
             {showMore && (
@@ -180,7 +178,21 @@ export default function About() {
                     instagram="https://www.instagram.com/rhnvrma/"
                   />
                 </div>
-                <div>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: isMobile ? "column" : "row",
+                  }}
+                >
+                  <TeamCard
+                    imgSrc={require("../public/images/People/Ronit.jpeg")}
+                    name="Ronit Desai"
+                    position="Web Developer"
+                    email="ronitdesai67@gmail.com"
+                    linkedin="https://www.linkedin.com/in/ronit-desai-49974b19b"
+                    twitter="https://twitter.com/RonitDesai7?t=nPX6QfURbkRaiYZtGGpuIw&s=09"
+                    instagram="https://www.instagram.com/ronitdesai1212/"
+                  />
                   <TeamCard
                     imgSrc={require("../public/images/People/Burhanuddin.jpeg")}
                     name="Burhanuddin Lokhandwala"

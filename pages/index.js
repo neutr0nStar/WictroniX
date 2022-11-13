@@ -38,7 +38,7 @@ export default function Home() {
       style={{ backgroundSize: isMobile ? "cover" : "" }}
     >
       <Head>
-        <title>Home - WictroniX</title>
+        <title>WictroniX - Integration is Incredible</title>
         <meta name="title" content="WictroniX - Integration Is Incredible" />
         <meta
           name="description"
@@ -52,6 +52,15 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta name="author" content="wictronix" />{" "}
         <link rel="icon" href="/favicon.ico" />
+        <script type="application/ld+json">
+          {`
+          {"@context" : "http://schema.org",
+          "@type" : "Organization",  
+           "name" : "WictroniX",
+           "url" : "https://www.wictronix.com", 
+           "logo": "https://www.wictronix.com/images/WXLogo.png" }
+          `}
+        </script>
       </Head>
       <Script
         async
