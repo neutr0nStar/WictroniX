@@ -13,6 +13,16 @@
     width: 75%;
 }
 
+.title {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-block: 3rem;
+    background-image: var(--gradient);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
 .tagLine {
     margin-top: -1rem;
     font-size: 4rem;
@@ -101,5 +111,9 @@
 
     .quote {
         font-size: 2rem;
+    }
+
+    .title {
+        font-size: 3rem;
     }
 }

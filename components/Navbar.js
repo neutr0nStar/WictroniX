@@ -28,7 +28,7 @@ export default function Navbar({ delay = 0 }) {
     return () => {
       window.removeEventListener("resize", handleWindowSizeChange);
     };
-  }, []);
+  }, [delay]);
 
   const handleMenuOpen = () => {
     setIsMenuOpen(!isMenuOpen);

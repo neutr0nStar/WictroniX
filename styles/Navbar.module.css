@@ -9,6 +9,7 @@
     position: sticky;
     top: 0;
     font-variant: small-caps;
+    /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 .rootExtended {
@@ -125,6 +126,7 @@
     font-weight: 600;
     display: flex;
     align-items: center;
+    font-variant: normal;
 }
 
 .cta:hover {

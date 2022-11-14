@@ -160,13 +160,12 @@ export default function About() {
                     instagram="https://www.instagram.com/mohit_doad/"
                   />
                   <TeamCard
-                    imgSrc={require("../public/images/People/Ayush.jpeg")}
-                    name="Ayush Daga"
-                    position="Project Manager"
-                    email="ayushdagaeinstein@gmail.com"
-                    linkedin="https://www.linkedin.com/in/ayush-daga-5218421b8"
-                    twitter="https://twitter.com/_ayushdaga_?t=6Vo2-VFJ87qPbHzW5rPOOA&s=08"
-                    instagram="https://instagram.com/ayush_dg1"
+                    imgSrc={require("../public/images/People/Burhanuddin.jpeg")}
+                    name="Burhanuddin Lokhandwala"
+                    position="Internal Operations Head"
+                    email="burhansvnit4@gmail.com"
+                    linkedin="https://in.linkedin.com/in/burhanuddinlokhandwala04"
+                    instagram="https://instagram.com/burhan____04"
                   />
                   <TeamCard
                     imgSrc={require("../public/images/People/Rohan.jpeg")}
@@ -193,13 +192,21 @@ export default function About() {
                     twitter="https://twitter.com/RonitDesai7?t=nPX6QfURbkRaiYZtGGpuIw&s=09"
                     instagram="https://www.instagram.com/ronitdesai1212/"
                   />
+
                   <TeamCard
-                    imgSrc={require("../public/images/People/Burhanuddin.jpeg")}
-                    name="Burhanuddin Lokhandwala"
-                    position="Internal Operations Head"
-                    email="burhansvnit4@gmail.com"
-                    linkedin="https://in.linkedin.com/in/burhanuddinlokhandwala04"
-                    instagram="https://instagram.com/burhan____04"
+                    imgSrc={require("../public/images/People/Vats.jpeg")}
+                    name="Vats Agarawal"
+                    position="Sales Head"
+                    email="agarwal.vats001@gmail.com"
+                  />
+                  <TeamCard
+                    imgSrc={require("../public/images/People/Ayush.jpeg")}
+                    name="Ayush Daga"
+                    position="Project Manager"
+                    email="ayushdagaeinstein@gmail.com"
+                    linkedin="https://www.linkedin.com/in/ayush-daga-5218421b8"
+                    twitter="https://twitter.com/_ayushdaga_?t=6Vo2-VFJ87qPbHzW5rPOOA&s=08"
+                    instagram="https://instagram.com/ayush_dg1"
                   />
                 </div>
               </div>

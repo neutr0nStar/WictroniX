@@ -9,7 +9,7 @@ export default function OurClients() {
 
   React.useEffect(() => {
     setIsMobile(window.innerWidth < 768);
-  });
+  }, []);
 
   return (
     <div className={styles.root}>
@@ -44,6 +44,12 @@ export default function OurClients() {
           className={styles.logoImage}
           src={require("../public/images/Logos/svnit.png")}
           alt="SVNIT"
+        />
+        <Image
+          className={styles.logoImage}
+          style={{ backgroundColor: "black", paddingInline: "10px" }}
+          src={require("../public/images/Logos/mindbend.png")}
+          alt="MindBend"
         />
         <Image
           className={styles.logoImage}

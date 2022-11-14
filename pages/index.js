@@ -50,35 +50,49 @@ export default function Home() {
      Web developers near me, Web Development, Content Writing, Graphic Designers, Photo Editing, Business Planning, SEO, WordPress Management, Cloud Management, Logo Designing"
         />
         <meta name="robots" content="index, follow" />
-        <meta name="author" content="wictronix" />{" "}
+        <meta name="author" content="wictronix" />
+        <meta
+          property="og:title"
+          content="WictroniX - Integration is Incredible"
+        />
+        <meta property="og:type" content="image" />
+        <meta property="og:url" content="https://www.wictronix.com/" />
+        <meta
+          property="og:image"
+          content="https://www.wictronix.com/favicon.ico"
+        />
         <link rel="icon" href="/favicon.ico" />
-        <script type="application/ld+json">
-          {`
+      </Head>
+      <Script type="application/ld+json" id="imageSEO">
+        {`
           {"@context" : "http://schema.org",
           "@type" : "Organization",  
            "name" : "WictroniX",
            "url" : "https://www.wictronix.com", 
            "logo": "https://www.wictronix.com/images/WXLogo.png" }
           `}
-        </script>
-      </Head>
+      </Script>
       <Script
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-3MVHB8B8YG"
       />
       <Script id="gtags">
         {`
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
 
-  gtag('config', 'G-3MVHB8B8YG');
-  `}
+          gtag('config', 'G-3MVHB8B8YG');
+        `}
       </Script>
       <Navbar delay={7500} />
       <Intro />
       <MainContainer />
-
+      <Image
+        src={require("../public/favicon.ico")}
+        alt="wictronix"
+        style={{ display: "none" }}
+      />
       {/* Magical segment */}
       <div className={styles.magical}>
         <div data-aos="fade-down">Our Magical Spells</div>
@@ -99,6 +113,9 @@ export default function Home() {
             src={require("../public/images/x-alphabet.png")}
             width={150}
             alt="xFactor"
+            style={{
+              margin: isMobile ? "auto auto 2rem auto" : "auto 4rem auto auto",
+            }}
           />
           <div>
             Performing routine tasks does not make a business exceptional. You
@@ -116,7 +133,9 @@ export default function Home() {
             src={require("../public/images/innovation.png")}
             width={150}
             alt="innovation"
-            style={{ marginRight: "1rem" }}
+            style={{
+              margin: isMobile ? "auto auto 2rem auto" : "auto 4rem auto auto",
+            }}
           />
           When the winds of change blow, some people build walls and others
           build windmills. Innovation and creativity drives a company from good
@@ -159,6 +178,9 @@ export default function Home() {
             src={require("../public/images/analysis.png")}
             width={150}
             alt="xFactor"
+            style={{
+              margin: isMobile ? "auto auto 2rem auto" : "auto 4rem auto auto",
+            }}
           />
           <div>
             “Tactics without Strategy is the noise before defeat” - Sun Tzu A
@@ -184,6 +206,9 @@ export default function Home() {
             src={require("../public/images/integration.png")}
             width={150}
             alt="Integration"
+            style={{
+              margin: isMobile ? "auto auto 2rem auto" : "auto 4rem auto auto",
+            }}
           />
           <div>
             There is always friction and inefficiency if different types of

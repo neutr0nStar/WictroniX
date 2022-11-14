@@ -8,10 +8,7 @@ export default function ParallaxSeg({ title, children, bgImg }) {
       style={{ backgroundImage: `url(${bgImg.src})` }}
     >
       <div className={styles.container}>
-        <div
-          className={styles.containerInner}
-          style={{ mixBlendMode: "screen" }}
-        >
+        <div className={styles.containerInner}>
           <div className={styles.title} data-aos="fade-down">
             {title}
           </div>
