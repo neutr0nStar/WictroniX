@@ -154,7 +154,7 @@ export default function About() {
                   <TeamCard
                     imgSrc={require("../public/images/People/Mohit.jpg")}
                     name="Mohit Doad"
-                    position="Deisgn Head"
+                    position="Design Head"
                     email="mohitdoad1234@gmail.com"
                     linkedin="https://www.linkedin.com/in/mohit-doad-3613431ba"
                     instagram="https://www.instagram.com/mohit_doad/"
