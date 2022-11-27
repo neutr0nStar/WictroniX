@@ -53,7 +53,13 @@ export default function MainContainer() {
         </section>
         <section className={styles.contentSection}>
           <div className={styles.title}>What do we do ?</div>
-          <p style={{ lineHeight: "1.75rem", fontSize: "1.3rem" }}>
+          <p
+            style={{
+              lineHeight: "1.75rem",
+              fontSize: "1.3rem",
+              textAlign: "justify",
+            }}
+          >
             WictroniX offers a comprehensive & integrated end-to-end solution
             needed to launch and grow a startup or business. Making a quality
             product is one thing; building, expanding, and maintaining a
