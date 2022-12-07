@@ -162,7 +162,7 @@ export default function About() {
                     imgSrc={require("../public/images/People/Mohit.jpg")}
                     name="Mohit Doad"
                     position="Design Head"
-                    email="mohitdoad1234@gmail.com"
+                    email="mailto:mohitdoad1234@gmail.com"
                     linkedin="https://www.linkedin.com/in/mohit-doad-3613431ba"
                     instagram="https://www.instagram.com/mohit_doad/"
                   />
@@ -170,7 +170,7 @@ export default function About() {
                     imgSrc={require("../public/images/People/Burhanuddin.jpeg")}
                     name="Burhanuddin"
                     position="Internal Operations Head"
-                    email="burhansvnit4@gmail.com"
+                    email="mailto:burhansvnit4@gmail.com"
                     linkedin="https://in.linkedin.com/in/burhanuddinlokhandwala04"
                     instagram="https://instagram.com/burhan____04"
                   />
@@ -178,7 +178,7 @@ export default function About() {
                     imgSrc={require("../public/images/People/Rohan.jpeg")}
                     name="Rohan Verma"
                     position="Research Head"
-                    email="r0hnvrm4@gmail.com"
+                    email="mailto:r0hnvrm4@gmail.com"
                     linkedin="https://www.linkedin.com/in/rhnvrma/"
                     twitter="https://mobile.twitter.com/Rhnvrma"
                     instagram="https://www.instagram.com/rhnvrma/"
@@ -191,26 +191,26 @@ export default function About() {
                   }}
                 >
                   <TeamCard
-                    imgSrc={require("../public/images/People/Ronit.jpeg")}
-                    name="Ronit Desai"
-                    position="Web Developer"
-                    email="ronitdesai67@gmail.com"
-                    linkedin="https://www.linkedin.com/in/ronit-desai-49974b19b"
-                    twitter="https://twitter.com/RonitDesai7?t=nPX6QfURbkRaiYZtGGpuIw&s=09"
-                    instagram="https://www.instagram.com/ronitdesai1212/"
+                    imgSrc={require("../public/images/People/Romit.png")}
+                    name="Romit Chakraborty"
+                    position="Project Manager"
+                    email="mailto:romit.chakraborty2002@gmail.com"
+                    linkedin="https://www.linkedin.com/in/romitchakraborty/"
+                    twitter="https://twitter.com/ROMITCHAKRABO10"
+                    instagram="https://www.instagram.com/invites/contact/?i=10zue1xaxnegz&utm_content=27vdcot"
                   />
 
                   <TeamCard
                     imgSrc={require("../public/images/People/Vats.jpeg")}
                     name="Vats Agarawal"
                     position="Sales Head"
-                    email="agarwal.vats001@gmail.com"
+                    email="mailto:agarwal.vats001@gmail.com"
                   />
                   <TeamCard
                     imgSrc={require("../public/images/People/Aniket.jpeg")}
                     name="Aniket Rana"
                     position="Tech Lead"
-                    email="aniketnareshkumarrana@gmail.com"
+                    email="mailto:aniketnareshkumarrana@gmail.com"
                     linkedin="https://www.linkedin.com/in/aniket-rana2934"
                     twitter="https://twitter.com/aniumbott"
                     instagram="https://instagram.com/aniumbott"
