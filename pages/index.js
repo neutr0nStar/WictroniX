@@ -22,6 +22,8 @@ import speedline from "../public/images/speedlineDark.svg";
 import speedlineStatic from "../public/images/speedlineStatic.svg";
 import Image from "next/image";
 
+import { getServerSideSitemapIndex, getServerSideSitemap } from "next-sitemap";
+
 export default function Home() {
   const [isMobile, setIsMobile] = React.useState(true);
   React.useEffect(() => {

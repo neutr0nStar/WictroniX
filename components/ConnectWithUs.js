@@ -7,16 +7,33 @@ export default function ConnectWithUs() {
   return (
     <div className={styles.root}>
       <div className={styles.title}>Connect With Us</div>
-      <p className={styles.content} style={{ textAlign: "center" }}>
-        Now let&apos;s join hands to build a better business.
-      </p>
-      <div
-        className={styles.moreBtn}
-        onClick={() => {
-          router.push("/letsIntegrate");
-        }}
-      >
-        Let&apos;s Integrate
+      <div className={styles.container}>
+        <div style={{ flex: "1" }}>
+          <p className={styles.content} style={{ textAlign: "center" }}>
+            Now let&apos;s join hands to build a better business.
+          </p>
+          <div
+            className={styles.moreBtn}
+            onClick={() => {
+              router.push("/letsIntegrate");
+            }}
+          >
+            Let&apos;s Integrate
+          </div>
+        </div>
+        <div style={{ flex: "1" }}>
+          <p className={styles.content} style={{ textAlign: "center" }}>
+            Be a part of this great journey !
+          </p>
+          <div
+            className={styles.moreBtn}
+            onClick={() => {
+              router.push("/joinUs");
+            }}
+          >
+            Join us
+          </div>
+        </div>
       </div>
     </div>
   );

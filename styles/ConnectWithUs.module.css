@@ -17,9 +17,18 @@
 }
 
 .content {
-    width: 75vw;
+    /* width: 75vw; */
     margin-inline: auto;
     color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 75vw;
+    margin-inline: auto;
 }
 
 .moreBtn {
@@ -44,5 +53,9 @@
 @media (max-width: 768px) {
     .title {
         font-size: 3rem;
+    }
+
+    .container {
+        flex-direction: column;
     }
 }
