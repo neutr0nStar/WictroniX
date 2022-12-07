@@ -30,6 +30,12 @@ export default function Contact() {
       <Head>
         <title>Contact - WictroniX</title>
         <meta name="description" content="Contact WictroniX" />
+        <meta
+          name="keywords"
+          content="wictronix,WictroniX,infotech,technology,build a website, make a website,simple website, build a website for free,freelancers near mesoftware company
+     Web developers near me, Web Development, Content Writing, Graphic Designers, Photo Editing, Business Planning, SEO, WordPress Management, Cloud Management, Logo Designing"
+        />
+        <meta name="robots" content="index, follow" />
       </Head>
       <Navbar delay={1000} />
       <AnimatedPageTitle>Contact</AnimatedPageTitle>
@@ -107,6 +113,7 @@ export default function Contact() {
             </form>
           </div>
           <div className={styles.contactDetails}>
+            <h1>Connect with Us</h1>
             <div>
               <h5>Email</h5>
               <Link

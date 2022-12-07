@@ -49,7 +49,8 @@ export default function Home() {
         <meta
           name="keywords"
           content="wictronix,WictroniX,infotech,technology,build a website, make a website,simple website, build a website for free,freelancers near mesoftware company
-     Web developers near me, Web Development, Content Writing, Graphic Designers, Photo Editing, Business Planning, SEO, WordPress Management, Cloud Management, Logo Designing"
+          Web developers near me, Web Development, Content Writing, Graphic Designers, Photo Editing, Business Planning, SEO, WordPress Management, Cloud Management, Logo Designing, 
+          integration is incredible,integration,integrated end-to-end, execution, x factor, innovation, creativity, speed, efficiency, strategy, business, startup, company, growth, marketing, finance, website, team, co-founder, management, connect"
         />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="wictronix" />
@@ -65,28 +66,6 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Script type="application/ld+json" id="imageSEO">
-        {`
-          {"@context" : "http://schema.org",
-          "@type" : "Organization",  
-           "name" : "WictroniX",
-           "url" : "https://www.wictronix.com", 
-           "logo": "https://www.wictronix.com/images/WXLogo.png" }
-          `}
-      </Script>
-      <Script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-3MVHB8B8YG"
-      />
-      <Script id="gtags">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-3MVHB8B8YG');
-        `}
-      </Script>
       <Navbar delay={7500} />
       <Intro />
       <MainContainer />
@@ -206,10 +185,10 @@ export default function Home() {
         <div className={styles.content}>
           <Image
             src={require("../public/images/integration.png")}
-            width={150}
+            width={200}
             alt="Integration"
             style={{
-              margin: isMobile ? "auto auto 2rem auto" : "auto 4rem auto auto",
+              margin: isMobile ? "auto auto 1rem auto" : "auto 1rem auto auto",
             }}
           />
           <div>
@@ -230,8 +209,8 @@ export default function Home() {
         <div className={styles.content}>
           <Image
             src={require("../public/images/growth.png")}
-            width={150}
-            alt="xFactor"
+            width={200}
+            alt="growth"
           />
           <div>
             - “Go for Greatness. Everything else is a waste of time.” - Marianne

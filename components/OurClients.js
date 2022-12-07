@@ -47,7 +47,7 @@ export default function OurClients() {
         />
         <Image
           className={styles.logoImage}
-          style={{ backgroundColor: "black", paddingInline: "10px" }}
+          style={{ backgroundColor: "black", padding: "10px" }}
           src={require("../public/images/Logos/mindbend.png")}
           alt="MindBend"
         />
@@ -57,53 +57,10 @@ export default function OurClients() {
           alt="Mauka"
         />
       </div>
-      {isMobile ? (
-        <div className={styles.marqueeContainer}>
-          <Carousel autoPlay infiniteLoop interval={2000} showThumbs={false}>
-            <Image
-              className={styles.logoImage}
-              src={require("../public/images/Logos/aaruni.jpg")}
-              alt="Aaruni Multispeciality Hospital"
-            />
-            <Image
-              className={styles.logoImage}
-              src={require("../public/images/Logos/anyday.jpg")}
-              alt="AnyDay Tutors"
-            />
-            <Image
-              className={styles.logoImage}
-              style={{ height: "200px", width: "auto" }}
-              src={require("../public/images/Logos/KYP.png")}
-              alt="kyp"
-            />
-            <Image
-              className={styles.logoImage}
-              src={require("../public/images/Logos/lst.png")}
-              alt="LST Capital"
-            />
-            <Image
-              className={styles.logoImage}
-              style={{ width: "250px", height: "auto" }}
-              src={require("../public/images/Logos/adt.png")}
-              alt="adt"
-            />
-            <Image
-              className={styles.logoImage}
-              style={{ height: "200px", width: "auto" }}
-              src={require("../public/images/Logos/rvauto.jpg")}
-              alt="RV Auto"
-            />
-            <Image
-              className={styles.logoImage}
-              src={require("../public/images/Logos/thewizards.png")}
-              alt="The Wizards"
-            />
-          </Carousel>
-        </div>
-      ) : (
-        <div className={styles.marqueeContainer}>
-          <Carousel autoPlay infiniteLoop interval={2000} showThumbs={false}>
-            <div style={{ display: "flex" }}>
+      <div data-aos="fade-up">
+        {isMobile ? (
+          <div className={styles.marqueeContainer}>
+            <Carousel autoPlay infiniteLoop interval={2000} showThumbs={false}>
               <Image
                 className={styles.logoImage}
                 src={require("../public/images/Logos/aaruni.jpg")}
@@ -114,10 +71,9 @@ export default function OurClients() {
                 src={require("../public/images/Logos/anyday.jpg")}
                 alt="AnyDay Tutors"
               />
-            </div>
-            <div style={{ display: "flex" }}>
               <Image
                 className={styles.logoImage}
+                style={{ height: "200px", width: "auto" }}
                 src={require("../public/images/Logos/KYP.png")}
                 alt="kyp"
               />
@@ -126,8 +82,6 @@ export default function OurClients() {
                 src={require("../public/images/Logos/lst.png")}
                 alt="LST Capital"
               />
-            </div>
-            <div style={{ display: "flex" }}>
               <Image
                 className={styles.logoImage}
                 style={{ width: "250px", height: "auto" }}
@@ -136,6 +90,7 @@ export default function OurClients() {
               />
               <Image
                 className={styles.logoImage}
+                style={{ height: "200px", width: "auto" }}
                 src={require("../public/images/Logos/rvauto.jpg")}
                 alt="RV Auto"
               />
@@ -144,10 +99,57 @@ export default function OurClients() {
                 src={require("../public/images/Logos/thewizards.png")}
                 alt="The Wizards"
               />
-            </div>
-          </Carousel>
-        </div>
-      )}
+            </Carousel>
+          </div>
+        ) : (
+          <div className={styles.marqueeContainer}>
+            <Carousel autoPlay infiniteLoop interval={2000} showThumbs={false}>
+              <div style={{ display: "flex" }}>
+                <Image
+                  className={styles.logoImage}
+                  src={require("../public/images/Logos/aaruni.jpg")}
+                  alt="Aaruni Multispeciality Hospital"
+                />
+                <Image
+                  className={styles.logoImage}
+                  src={require("../public/images/Logos/anyday.jpg")}
+                  alt="AnyDay Tutors"
+                />
+              </div>
+              <div style={{ display: "flex" }}>
+                <Image
+                  className={styles.logoImage}
+                  src={require("../public/images/Logos/KYP.png")}
+                  alt="kyp"
+                />
+                <Image
+                  className={styles.logoImage}
+                  src={require("../public/images/Logos/lst.png")}
+                  alt="LST Capital"
+                />
+              </div>
+              <div style={{ display: "flex" }}>
+                <Image
+                  className={styles.logoImage}
+                  style={{ width: "250px", height: "auto" }}
+                  src={require("../public/images/Logos/adt.png")}
+                  alt="adt"
+                />
+                <Image
+                  className={styles.logoImage}
+                  src={require("../public/images/Logos/rvauto.jpg")}
+                  alt="RV Auto"
+                />
+                <Image
+                  className={styles.logoImage}
+                  src={require("../public/images/Logos/thewizards.png")}
+                  alt="The Wizards"
+                />
+              </div>
+            </Carousel>
+          </div>
+        )}
+      </div>
     </div>
   );
 }

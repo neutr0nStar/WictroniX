@@ -24,6 +24,13 @@ export default function About() {
       <Head>
         <title>About - WictroniX</title>
         <meta name="description" content="About WictroniX" />
+        <meta
+          name="keywords"
+          content="legacy, legendary, legends,eccentrics, outcasts, rebels, troublemakers, square pegs in round holes, comfort zone, founder of wictronix,ceo of wictronix, ceo, cto,cmo,cfo,coo,cso, mihir gandhi, sneharsh belsare, sunil kumar poonia, karnik gandhi, nehal jhajaharia, darshan upadhyay
+          , wictronix,WictroniX,infotech,technology,build a website, make a website,simple website, build a website for free,freelancers near mesoftware company
+     Web developers near me, Web Development, Content Writing, Graphic Designers, Photo Editing, Business Planning, SEO, WordPress Management, Cloud Management, Logo Designing"
+        />
+        <meta name="robots" content="index, follow" />
       </Head>
       <Navbar delay={1000} />
       <AnimatedPageTitle>About</AnimatedPageTitle>
@@ -117,9 +124,9 @@ export default function About() {
               cxo
             />
             <TeamCard
-              imgSrc={require("../public/images/People/COO.jpeg")}
+              imgSrc={require("../public/images/People/CSO.jpeg")}
               name="Nehal Jhajharia"
-              position="Chief Operating Officer"
+              position="Chief Strategy Officer"
               email="mailto:coo@wictronix.com"
               linkedin="https://www.linkedin.com/in/nehal-jhajharia-494999200/"
               cxo
@@ -134,9 +141,9 @@ export default function About() {
               cxo
             />
             <TeamCard
-              imgSrc={require("../public/images/People/CSO.jpeg")}
+              imgSrc={require("../public/images/People/COO.jpeg")}
               name="Karnik Gandhi"
-              position="Chief Strategy Officer"
+              position="Chief Operating Officer"
               email="mailto:cso@wictronix.com"
               linkedin="https://www.linkedin.com/in/karnik-gandhi-89a832256"
               twitter="https://twitter.com/GandhiKarnik?t=MsXX0ypLlQ7xjIidegP4Iw&s=08"
@@ -161,7 +168,7 @@ export default function About() {
                   />
                   <TeamCard
                     imgSrc={require("../public/images/People/Burhanuddin.jpeg")}
-                    name="Burhanuddin Lokhandwala"
+                    name="Burhanuddin"
                     position="Internal Operations Head"
                     email="burhansvnit4@gmail.com"
                     linkedin="https://in.linkedin.com/in/burhanuddinlokhandwala04"
@@ -200,13 +207,13 @@ export default function About() {
                     email="agarwal.vats001@gmail.com"
                   />
                   <TeamCard
-                    imgSrc={require("../public/images/People/Ayush.jpeg")}
-                    name="Ayush Daga"
-                    position="Project Manager"
-                    email="ayushdagaeinstein@gmail.com"
-                    linkedin="https://www.linkedin.com/in/ayush-daga-5218421b8"
-                    twitter="https://twitter.com/_ayushdaga_?t=6Vo2-VFJ87qPbHzW5rPOOA&s=08"
-                    instagram="https://instagram.com/ayush_dg1"
+                    imgSrc={require("../public/images/People/Aniket.jpeg")}
+                    name="Aniket Rana"
+                    position="Tech Lead"
+                    email="aniketnareshkumarrana@gmail.com"
+                    linkedin="https://www.linkedin.com/in/aniket-rana2934"
+                    twitter="https://twitter.com/aniumbott"
+                    instagram="https://instagram.com/aniumbott"
                   />
                 </div>
               </div>

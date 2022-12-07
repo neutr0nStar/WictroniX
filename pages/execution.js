@@ -41,6 +41,13 @@ export default function Execution() {
       <Head>
         <title>eXecution - WictroniX</title>
         <meta name="description" content="eXecution WictroniX" />
+        <meta
+          name="keywords"
+          content="ideas meet execution, advanced technology, exceptional marketing, great management, good finance, AI, ML, Web 3, website, web application, mobile app, android, cloud, product market fit, brand development, personal branding, market research, 
+          wictronix,WictroniX,infotech,technology,build a website, make a website,simple website, build a website for free,freelancers near mesoftware company
+     Web developers near me, Web Development, Content Writing, Graphic Designers, Photo Editing, Business Planning, SEO, WordPress Management, Cloud Management, Logo Designing"
+        />
+        <meta name="robots" content="index, follow" />
       </Head>
       <Navbar delay={1000} />
       <AnimatedPageTitle>
@@ -222,14 +229,14 @@ export default function Execution() {
                 >
                   <div>
                     <ul>
-                      <li>Digital marketing</li>
-                      <li>Social Media management</li>
-                      <li>Ads management</li>
+                      <li>Brand Development</li>
+                      <li>Social Media Management</li>
+                      <li>Digital Marketing</li>
                     </ul>
                   </div>
                   <div>
                     <ul>
-                      <li>Offline marketing</li>
+                      <li>Offline Marketing</li>
                       <li>Events & Seminars</li>
                       <li>Public Surveys</li>
                     </ul>

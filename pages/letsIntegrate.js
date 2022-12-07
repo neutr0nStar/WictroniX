@@ -28,6 +28,13 @@ export default function Contact() {
       <Head>
         <title>Let&apos;s Integrate - WictroniX</title>
         <meta name="description" content="Let's Integrate WictroniX" />
+        <meta
+          name="keywords"
+          content="Lets integrate, pricing, dreams, dynamic,connect,project, 
+          wictronix,WictroniX,infotech,technology,build a website, make a website,simple website, build a website for free,freelancers near mesoftware company
+     Web developers near me, Web Development, Content Writing, Graphic Designers, Photo Editing, Business Planning, SEO, WordPress Management, Cloud Management, Logo Designing"
+        />
+        <meta name="robots" content="index, follow" />
       </Head>
       <Navbar delay={1000} />
       <AnimatedPageTitle>Let&apos;s Integrate</AnimatedPageTitle>
@@ -45,8 +52,8 @@ export default function Contact() {
           <h2>Pricing</h2>
           We don&apos;t put a price tag on your dreams. We are very dynamic with
           our Pricing Models depending on the conditions of the business like
-          liquidity, current growth, future potential, etc. To get and accurate
-          pricing quote, please fill the form below.
+          idea, business model, liquidity, current growth, future potential,
+          etc. To get an accurate pricing quote, please fill the form below.
         </div>
         <br />
         <br />

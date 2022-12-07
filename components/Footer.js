@@ -19,10 +19,11 @@ export default function Footer() {
           className={styles.logo}
         />
       </div>
+      {isMobile ? <br /> : null}
       <div className={styles.linksContainer}>
         <h2>Links</h2>
         <div
-          style={{ marginTop: "0.5rem" }}
+          style={{ marginTop: "0.5rem", cursor: "pointer" }}
           onClick={() => {
             router.push("/about");
           }}
@@ -32,22 +33,24 @@ export default function Footer() {
         {/* <div style={{ marginTop: "0.5rem" }}>FAQs</div> */}
         {/* <div style={{ marginTop: "0.5rem" }}>Gallery</div> */}
         <div
-          style={{ marginTop: "0.5rem" }}
+          style={{ marginTop: "0.5rem", cursor: "pointer" }}
           onClick={() => {
-            router.push("/contact");
+            router.push("/joinUs");
           }}
         >
           Join Us
         </div>
         <div
-          style={{ marginTop: "0.5rem" }}
+          style={{ marginTop: "0.5rem", cursor: "pointer" }}
           onClick={() => {
             router.push("/letsIntegrate");
           }}
         >
           Pricing
         </div>
+        {isMobile ? <br /> : null}
       </div>
+      {isMobile ? <br /> : null}
       <div className={styles.socialContainer}>
         <h2>Connect with Us</h2>
         <Link
@@ -78,7 +81,7 @@ export default function Footer() {
         <div
           style={{
             marginBlock: "2rem",
-            width: isMobile ? "90%" : "50%",
+            width: "12rem",
             display: "flex",
             justifyContent: "space-between",
           }}
