@@ -124,11 +124,13 @@ export default function About() {
               cxo
             />
             <TeamCard
-              imgSrc={require("../public/images/People/CSO.jpeg")}
-              name="Nehal Jhajharia"
-              position="Chief Strategy Officer"
-              email="mailto:coo@wictronix.com"
-              linkedin="https://www.linkedin.com/in/nehal-jhajharia-494999200/"
+              imgSrc={require("../public/images/People/COO.jpeg")}
+              name="Karnik Gandhi"
+              position="Chief Operating Officer"
+              email="mailto:cso@wictronix.com"
+              linkedin="https://www.linkedin.com/in/karnik-gandhi-89a832256"
+              twitter="https://twitter.com/GandhiKarnik?t=MsXX0ypLlQ7xjIidegP4Iw&s=08"
+              instagram="https://instagram.com/karnik_0909?igshid=YmMyMTA2M2Y="
               cxo
             />
             <TeamCard
@@ -141,13 +143,11 @@ export default function About() {
               cxo
             />
             <TeamCard
-              imgSrc={require("../public/images/People/COO.jpeg")}
-              name="Karnik Gandhi"
-              position="Chief Operating Officer"
-              email="mailto:cso@wictronix.com"
-              linkedin="https://www.linkedin.com/in/karnik-gandhi-89a832256"
-              twitter="https://twitter.com/GandhiKarnik?t=MsXX0ypLlQ7xjIidegP4Iw&s=08"
-              instagram="https://instagram.com/karnik_0909?igshid=YmMyMTA2M2Y="
+              imgSrc={require("../public/images/People/CSO.jpeg")}
+              name="Nehal Jhajharia"
+              position="Chief Strategy Officer"
+              email="mailto:coo@wictronix.com"
+              linkedin="https://www.linkedin.com/in/nehal-jhajharia-494999200/"
               cxo
             />
             {showMore && (
