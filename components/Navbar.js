@@ -35,7 +35,19 @@ export default function Navbar({ delay = 0 }) {
   };
 
   return (
+    // <div
+    //   className={`${isMenuOpen && styles.backdrop}`}
+    //   onClick={() => {
+    //     if (isMenuOpen) setIsMenuOpen(false);
+    //   }}
+    // >
     <nav className={`${isMenuOpen ? styles.rootExtended : styles.root}`}>
+      {isMenuOpen && (
+        <div
+          className={styles.backdrop}
+          onClick={() => setIsMenuOpen(false)}
+        ></div>
+      )}
       <div
         className={`${
           isMenuOpen ? styles.containerExtended : styles.container
@@ -49,7 +61,6 @@ export default function Navbar({ delay = 0 }) {
           <Link href="/">
             <Image src={brandImg} alt="logo" className={styles.brandImg} />
           </Link>
-
           {!isMobile ? (
             <div className={styles.navLinks} style={{ color: "white" }}>
               <div className={styles.navLink} onClick={() => router.push("/")}>
@@ -72,6 +83,12 @@ export default function Navbar({ delay = 0 }) {
                 onClick={() => router.push("/contact")}
               >
                 Contact
+              </div>
+              <div
+                className={styles.navLink}
+                onClick={() => router.push("/joinUs")}
+              >
+                Join Us
               </div>
               <div
                 className={styles.cta}
@@ -157,6 +174,12 @@ export default function Navbar({ delay = 0 }) {
             Contact
           </div>
           <div
+            className={styles.moMeLink}
+            onClick={() => router.push("/joinUs")}
+          >
+            Join us
+          </div>
+          <div
             className={styles.cta}
             onClick={() => router.push("/letsIntegrate")}
           >
@@ -181,5 +204,6 @@ export default function Navbar({ delay = 0 }) {
         </div>
       </div>
     </nav>
+    // </div>
   );
 }
