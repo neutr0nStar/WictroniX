@@ -2,7 +2,7 @@ import React from "react";
 import { Widget } from "@typeform/embed-react";
 import Head from "next/head";
 
-export default function joinUs() {
+export default function JoinUs() {
   const [isMobile, setIsMobile] = React.useState(true);
 
   React.useEffect(() => {
@@ -17,7 +17,7 @@ export default function joinUs() {
       </Head>
       <div
         style={{
-          height: isMobile ? "90vh" : "100vh",
+          height: isMobile ? "85vh" : "100vh",
           width: "100vw",
         }}
       >
