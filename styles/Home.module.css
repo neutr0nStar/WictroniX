@@ -25,6 +25,25 @@
     color: white;
 }
 
+.title1 {
+    font-size: 4rem;
+    font-weight: 600;
+    background-image: var(--gradient);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.whatwedo{
+    line-height: 1.75rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    background-color: hsl(198, 100%, 80%);
+    margin:0.5rem 10rem;
+}
+
 .content {
     color: white;
     margin-top: 3rem;
@@ -61,5 +80,15 @@
     .magical {
         font-size: 2rem;
     background-image: url('../public/images/particlesStatic.svg');
+    }
+    .title1 {
+        font-size: 3rem;
+        margin: 0rem 0.6rem 0rem 0.6rem;
+    }
+
+    .whatwedo{
+        font-size: 1rem;
+        padding: 1rem 1rem 1rem 0rem;
+        margin: 0rem 0.6rem;
     }
 }

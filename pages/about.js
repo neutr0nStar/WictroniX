@@ -105,7 +105,7 @@ export default function About() {
             />
             <TeamCard
               imgSrc={require("../public/images/People/CMO.jpeg")}
-              name="Sunil Kumar Poonia"
+              name="Sunil Poonia"
               position="Co Founder & CMO"
               email="mailto:cmo@wictronix.com"
               linkedin="https://www.linkedin.com/in/sunil-kumar-poonia"
@@ -169,7 +169,7 @@ export default function About() {
                   <TeamCard
                     imgSrc={require("../public/images/People/Burhanuddin.jpeg")}
                     name="Burhanuddin"
-                    position="Internal Operations Head"
+                    position="Research Head"
                     email="mailto:burhansvnit4@gmail.com"
                     linkedin="https://in.linkedin.com/in/burhanuddinlokhandwala04"
                     instagram="https://instagram.com/burhan____04"
@@ -177,7 +177,7 @@ export default function About() {
                   <TeamCard
                     imgSrc={require("../public/images/People/Rohan.jpeg")}
                     name="Rohan Verma"
-                    position="Research Head"
+                    position="UI/UX Head"
                     email="mailto:r0hnvrm4@gmail.com"
                     linkedin="https://www.linkedin.com/in/rhnvrma/"
                     twitter="https://mobile.twitter.com/Rhnvrma"
@@ -193,7 +193,7 @@ export default function About() {
                   <TeamCard
                     imgSrc={require("../public/images/People/Romit.png")}
                     name="Romit Chakraborty"
-                    position="Project Manager"
+                    position="Marketing Head"
                     email="mailto:romit.chakraborty2002@gmail.com"
                     linkedin="https://www.linkedin.com/in/romitchakraborty/"
                     twitter="https://twitter.com/ROMITCHAKRABO10"
