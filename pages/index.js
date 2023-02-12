@@ -232,7 +232,7 @@ export default function Home() {
             <li>Get access to the fastest growing network of startups,entrepreneurs, businesses, investors and industry experts. </li>
             <li>We offer all the execution integrated under one roof. Grow your startup easily as you get everything at one place with fast and efficient working.</li>
             <li>Collaborate with other startups,businesses,programs, experts and mentors. Find and connect with investors easily.</li>
-            <li>You can be collaborate and work with us on WictroniX's revolutionary flagship projects which involves technologies like AI/Ml, Web 3.0, IoT, Cybersecurity, Big Data etc. </li>
+            <li>You can be collaborate and work with us on WictroniX&apos;s revolutionary flagship projects which involves technologies like AI/Ml, Web 3.0, IoT, Cybersecurity, Big Data etc. </li>
             </ul> 
           </p>
       </section></div>
