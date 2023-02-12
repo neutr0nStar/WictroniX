@@ -1,5 +1,7 @@
 import Image from "next/image";
 import React from "react";
+
+import speedline from "../public/images/speedline.svg";
 import dots from "../public/images/typing.svg";
 
 export default function Loader() {

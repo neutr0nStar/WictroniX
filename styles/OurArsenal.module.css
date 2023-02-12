@@ -40,7 +40,7 @@
 
 .tableHead > div:nth-child(2) {
     flex: 1;
-    margin-inline: 2rem;
+    margin-inline: -3rem;
 }
 
 .tableRow {

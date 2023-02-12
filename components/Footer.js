@@ -14,7 +14,7 @@ export default function Footer() {
     <footer className={styles.root} style={{ position: "relative" }}>
       <div className={styles.logoContainer}>
         <Image
-          src={require("../public/images/wxwhite.svg")}
+          src={require("../public/images/wxWhite.svg")}
           alt="Footer logo"
           className={styles.logo}
         />

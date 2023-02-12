@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Script from "next/script";
 import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -37,7 +38,7 @@ export default function Home() {
       style={{ backgroundSize: isMobile ? "cover" : "" }}
     >
       <Head>
-        <title>WictroniX - Integration Is Incredible</title>
+        <title>WictroniX - Integration is Incredible</title>
         <meta name="title" content="WictroniX - Integration Is Incredible" />
         <meta
           name="description"
@@ -63,7 +64,7 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar delay={4500} />
+      <Navbar delay={7500} />
       <Intro />
       <MainContainer />
       <Image
@@ -161,7 +162,7 @@ export default function Home() {
             }}
           />
           <div>
-            “Tactics without Strategy is the noise before defeat” - Sun Tzu. A
+            “Tactics without Strategy is the noise before defeat” - Sun Tzu A
             strategy helps companies define their businesses and gives them a
             set of values and a purpose. Great businesses require great
             strategies, and we develop our business plans by drawing inspiration
@@ -181,16 +182,18 @@ export default function Home() {
         </div>
         <div className={styles.content}>
           <Image
-            src={require("../public/images/integration1.png")}
+            src={require("../public/images/integration.png")}
             width={200}
             alt="Integration"
             style={{
-              margin: isMobile ? "auto auto 2rem auto" : "auto 1rem auto auto",
+              margin: isMobile ? "auto auto 1rem auto" : "auto 1rem auto auto",
             }}
           />
           <div>
             There is always friction and inefficiency if different types of
-            tasks are assigned to various authorities.Without any hassle, we set up a precise
+            tasks are assigned to various authorities. However, WictroniX offers
+            integrated execution for all of the procedures, making them quick
+            and effective. Without causing you any worry, we set up a precise
             and correct framework underneath to enable you to focus on your
             product.
           </div>
@@ -198,7 +201,7 @@ export default function Home() {
       </ParallaxSeg>
       <ParallaxSeg
         bgImg={isMobile ? bubblesStatic : bubbles}
-        style={{ marginBottom: isMobile ? "auto auto 2rem auto" : "4rem" }}
+        style={{ marginBottom: isMobile ? "auto" : "4rem" }}
       >
         <div className={styles.title}>No respect for the Status Quo</div>
         <div className={styles.content}>
@@ -209,7 +212,7 @@ export default function Home() {
           />
           <div>
             - “Go for Greatness. Everything else is a waste of time.” - Marianne
-            Williamson. We believe that greatness begins beyond our comfort zone
+            Williamson We believe that greatness begins beyond our comfort zone
             and we always strive to do so. We push ourselves, innovate and go
             beyond our limits to achieve something legendary.
           </div>
@@ -239,7 +242,7 @@ export default function Home() {
       
       <OurClients />
       <ConnectWithUs />
-     
+
       <Footer />
     </div>
   );

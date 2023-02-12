@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import AnimatedPageTitle from "../components/AnimatedPageTitle";
 import AOS from "aos";
@@ -6,8 +7,10 @@ import Navbar from "../components/Navbar";
 import styles from "../styles/LetsIntegrate.module.css";
 
 import { Widget } from "@typeform/embed-react";
-import Head from "next/head";
 
+import wxLogo from "../public/images/wx.svg";
+import Head from "next/head";
+import TeamCard from "../components/TeamCard";
 
 export default function Contact() {
   const [loading, setLoading] = React.useState(true);

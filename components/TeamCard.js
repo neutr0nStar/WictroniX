@@ -57,6 +57,9 @@ export default function TeamCard({
             />
           </Link>
         </div>
+        <div className={styles.desc}>
+          {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, dolor. */}
+        </div>
       </div>
     </div>
   );

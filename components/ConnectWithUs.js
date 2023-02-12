@@ -10,7 +10,7 @@ export default function ConnectWithUs() {
       <div className={styles.container}>
         <div style={{ flex: "1" }}>
           <p className={styles.content} style={{ textAlign: "center" }}>
-            Let&apos;s join hands to build a great business !
+            Now let&apos;s join hands to build a better business.
           </p>
           <div
             className={styles.moreBtn}

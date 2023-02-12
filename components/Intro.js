@@ -18,7 +18,7 @@ export default function Intro() {
         //   S.UI.simulate("We|are|WictroniX");
         //   sessionStorage.setItem("wxLoaded", true);
         // }
-        S.UI.simulate("We're|WictroniX");
+        S.UI.simulate("We|are|WictroniX");
 
         S.Drawing.loop(function () {
           S.Shape.render();
@@ -30,7 +30,7 @@ export default function Intro() {
       var canvas, context, renderFn;
       var requestFrame = window.requestAnimationFrame;
       function a(callback) {
-        window.setTimeout(callback, 1000 / 50);
+        window.setTimeout(callback, 1000 / 30);
       }
 
       return {
