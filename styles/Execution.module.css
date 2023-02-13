@@ -1,0 +1,134 @@
+.root {
+    background-image: url('../public/images/fieldsStatic.svg');
+    /* overflow: hidden; */
+    background-position-x: center;
+}
+
+.rootContainer {
+    min-height: 50vh;
+    width: 100%;
+    background-color: white;
+    border-radius: 1rem 1rem 0 0;
+    padding: 4rem
+}
+
+.rootTitle {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-block: 3rem;
+    /* background-image: var(--gradient); */
+    color: #001d3f;
+    text-align: center;
+    animation: titleAni 1s;
+    animation-delay: 1s;
+}
+
+
+.title {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-top: 3rem;
+    color: white;
+}
+
+.content {
+    color: white;
+    margin-top: 3rem;
+    max-width: 90%;
+    margin-inline: auto;
+    line-height: 1.75rem;
+    display: flex;
+    align-items: center;
+}
+
+.content > div {
+    margin-left: 1rem;
+}
+
+.tabContainer {
+    width: 100%;
+    min-height: 60vh;
+    background-color: #ccdeff;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+}
+
+.sidebar {
+    background-color: #0059ff;
+    flex: 1;
+    font-size: 1.2rem;
+}
+
+.sbLink {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.tabContent {
+    font-size: 1.1rem;
+    line-height: 1.75rem;
+    flex: 3;
+    padding: 2rem; 
+    transition: all 300ms ;
+}
+
+
+
+.moreBtn {
+    width: max-content;
+    background-image: linear-gradient(to right, rgb(0, 89, 255), #00B2FF);
+    background-size: 400px;
+    height: min-content;
+    padding: 1rem;
+    color: white;
+    border-radius: 0.5rem;
+    margin-inline: auto ;
+    margin-block: 3rem;
+    cursor: pointer;
+}
+
+@keyframes titleAni {
+    from {
+        transform: scale(2);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+}
+
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .rootTitle {
+        font-size: 3rem;
+    }
+
+    .content {
+        flex-direction: column;
+        height: 800px;
+    }
+
+    .tabContainer {
+        width: 90vw;
+        margin-left: -3rem;
+        flex-direction: column;
+    }
+
+    .sidebar {
+        display: grid;
+        grid-template-columns: auto auto;
+        text-align: center;
+    }
+}

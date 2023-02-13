@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;800&display=swap');
+@font-face {
+  font-family: Nexa;
+  src: url('../public/fonts/NexaBold.otf');
+}
+:root {
+  --fg-color: #000;
+  --bg-color: #fff;
+  --primary: #0059FF;
+  /* --gradient: linear-gradient(to top left, #00B2FF, #0059FF, hsl(218, 100%, 31%)); */
+  --gradient: linear-gradient(to bottom right, #001d3f, #0059FF);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  /* background: var(--gradient); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 1.3rem;
+  }
+}

@@ -1,0 +1,61 @@
+.root {
+    background-color: white;
+    width: 100%;
+    margin-top: -1rem;
+    border-radius: 1rem 1rem 0 0;
+    padding: 3rem;
+}
+
+.title {
+    font-size: 5rem;
+    font-weight: bold;
+    background-image: var(--gradient);
+    color: transparent;
+    background-clip: text;
+    text-align: center;
+    margin-block: 4rem;
+}
+
+.content {
+    /* width: 75vw; */
+    margin-inline: auto;
+    color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 75vw;
+    margin-inline: auto;
+}
+
+.moreBtn {
+    width: max-content;
+    background-image: linear-gradient(to right, rgb(0, 89, 255), #00B2FF);
+    background-size: 400px;
+    height: min-content;
+    padding: 1rem;
+    color: white;
+    border-radius: 0.5rem;
+    margin-inline: auto ;
+    margin-block: 3rem;
+    cursor: pointer;
+}
+
+
+.moreBtn:hover {
+    background-position: -200px;
+}
+
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 3rem;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+}

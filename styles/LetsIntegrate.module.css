@@ -1,0 +1,43 @@
+.root {
+    background-image: url('../public/images/fieldsStatic.svg');
+    /* overflow: hidden; */
+    background-position-x: center;
+}
+
+.rootContainer {
+    min-height: 80vh;
+    width: 100%;
+    background-color: white;
+    border-radius: 1rem 1rem 0 0;
+    padding: 4rem 2rem
+}
+
+.title {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-block: 3rem;
+    background-image: var(--gradient);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    animation: titleAni 1s;
+    animation-delay: 1s;
+}
+
+@keyframes titleAni {
+    from {
+        transform: scale(2);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+    }
+}

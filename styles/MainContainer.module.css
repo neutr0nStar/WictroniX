@@ -1,0 +1,132 @@
+.root {
+    display: flex;
+    justify-content: center;
+    background-color: snow;
+    border-radius: 1rem 1rem 0 0 ;
+    margin-top: -2rem;
+    width: 100%;
+    padding: 3rem 2rem;
+    overflow: hidden;
+}
+
+.container {
+    width: 75%;
+}
+
+.title {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-block: 2rem;
+    background-image: var(--gradient);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
+.tagLine {
+    margin-top: -1rem;
+    font-size: 4rem;
+    font-weight: bold;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    text-align: center;
+    color: transparent;
+    /* background: linear-gradient(135deg, #5335cf 0%, #de005e 20%, #f66e48 40%, #de005e 80%, #5335cf 100%); */
+    background: linear-gradient(to left, #00B2FF 15%, #0059FF 45%, #00B2FF 75%);
+    background-clip: text;
+    background-size: 400%;
+    animation: animate 8s linear infinite;
+}
+
+@keyframes animate {
+    to{
+        background-position: 400%;
+    }
+};
+
+.contentSection {
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.contentSection > .heading {
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+    background-image: var(--gradient);
+    background-clip: text;
+    color: transparent;
+}
+
+.contentSection > .p {
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    color: #555;
+}
+
+.quote {
+    font-size: 2rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+
+.typewriter {
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+    background-image: var(--gradient);
+    background-clip: text;
+    color: transparent;
+    margin-block: 5rem;
+    min-height: 10rem;
+}
+
+.whatwedo{
+    line-height: 1.75rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    background-color: hsl(198, 100%, 80%);
+}
+
+@media (max-width: 768px) {
+
+    .root {
+        margin-top: -4rem;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .tagLine {
+        font-size: 3rem;
+    }
+
+    .contentSection {
+        padding: 4px;
+    }
+
+    .contentSection > h1 {
+        font-size: 3rem;
+    }
+
+    .typewriter {
+        font-size: 2rem;
+    }
+
+    .quote {
+        font-size: 2rem;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .whatwedo{
+        font-size: 1rem;
+        padding: 1rem 1rem 1rem 0rem;
+    }
+}

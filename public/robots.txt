@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.wictronix.com
+
+# Sitemaps
+Sitemap: https://www.wictronix.com/sitemap.xml
