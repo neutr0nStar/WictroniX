@@ -16,7 +16,7 @@
 .title {
     font-size: 4rem;
     font-weight: 600;
-    margin-block: 3rem;
+    margin-block: 2rem;
     background-image: var(--gradient);
     background-clip: text;
     color: transparent;
@@ -83,6 +83,14 @@
     min-height: 10rem;
 }
 
+.whatwedo{
+    line-height: 1.75rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    background-color: hsl(198, 100%, 80%);
+}
+
 @media (max-width: 768px) {
 
     .root {
@@ -90,7 +98,7 @@
     }
 
     .container {
-        width: 90%;
+        width: 100%;
     }
 
     .tagLine {
@@ -115,5 +123,10 @@
 
     .title {
         font-size: 3rem;
+    }
+
+    .whatwedo{
+        font-size: 1rem;
+        padding: 1rem 1rem 1rem 0rem;
     }
 }

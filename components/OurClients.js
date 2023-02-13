@@ -42,18 +42,17 @@ export default function OurClients() {
         />
         <Image
           className={styles.logoImage}
-          src={require("../public/images/Logos/svnit.png")}
+          src={require("../public/images/Logos/successtechno.png")}
           alt="SVNIT"
         />
         <Image
           className={styles.logoImage}
-          style={{ backgroundColor: "black", padding: "10px" }}
-          src={require("../public/images/Logos/mindbend.png")}
+          src={require("../public/images/Logos/pps.png")}
           alt="MindBend"
         />
         <Image
           className={styles.logoImage}
-          src={require("../public/images/Logos/mauka.png")}
+          src={require("../public/images/Logos/saugroups.png")}
           alt="Mauka"
         />
       </div>
@@ -120,7 +119,7 @@ export default function OurClients() {
                 <Image
                   className={styles.logoImage}
                   src={require("../public/images/Logos/KYP.png")}
-                  alt="kyp"
+                  alt="KYP Logistics"
                 />
                 <Image
                   className={styles.logoImage}
@@ -129,22 +128,18 @@ export default function OurClients() {
                 />
               </div>
               <div style={{ display: "flex" }}>
-                <Image
+                  <Image
                   className={styles.logoImage}
-                  style={{ width: "250px", height: "auto" }}
-                  src={require("../public/images/Logos/adt.png")}
-                  alt="adt"
+                  style={{backgroundColor: "black",padding: "8px",width: "250px",justifyContent: "center"}}
+                  src={require("../public/images/Logos/mindbend.png")}
+                  alt="Mindbend"
                 />
                 <Image
                   className={styles.logoImage}
                   src={require("../public/images/Logos/rvauto.jpg")}
-                  alt="RV Auto"
+                  alt="RV AutoCare"
                 />
-                <Image
-                  className={styles.logoImage}
-                  src={require("../public/images/Logos/thewizards.png")}
-                  alt="The Wizards"
-                />
+              
               </div>
             </Carousel>
           </div>

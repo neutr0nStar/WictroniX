@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import styles from "../styles/Navbar.module.css";
-import brandImg from "../public/images/wxBlack.svg";
+import brandImg from "../public/images/wxblack.svg";
 import Link from "next/link";
 
 export default function Navbar({ delay = 0 }) {

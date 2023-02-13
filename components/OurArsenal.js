@@ -15,7 +15,7 @@ export default function OurArsenal() {
       <div className={styles.tableContainer} data-aos="flip-up">
         <div className={styles.tableHead}>
           <div>Business Needs</div>
-          <div>WictroniX</div>
+          <div>WictroniX Provides</div>
         </div>
         <div className={styles.tableRow}>
           <div>Innovation & Creativity</div>
@@ -36,7 +36,7 @@ export default function OurArsenal() {
           </div>
         </div>
         <div className={styles.tableRow}>
-          <div>Great Idea</div>
+          <div>Great Ideas</div>
           <div>
             <Image src={verified} alt="verified" style={{ height: "20px" }} />
           </div>
