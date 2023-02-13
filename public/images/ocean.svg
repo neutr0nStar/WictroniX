@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin: auto; background: rgb(0, 29, 63); display: block; z-index: 1; position: relative; shape-rendering: auto;" width="1597" height="772" preserveAspectRatio="xMidYMid" viewBox="0 0 1597 772">
-<g transform="translate(798.5,386) scale(1,1) translate(-798.5,-386)"><path d="M-100 746.14C202.77 704.21 200.01 706.78 499 706.78S803.5 727.01 1098 727.01S1401.26 714.36 1697 714.36S1998.73 708.62 2296 708.62L1697 772 L-100 772 Z" fill="#00b2ff" stroke-width="0">
-  <animate attributeName="d" dur="2.5s" repeatCount="indefinite" values="M-100 746.14C202.77 704.21 200.01 706.78 499 706.78S803.5 727.01 1098 727.01S1401.26 714.36 1697 714.36S1998.73 708.62 2296 708.62L1697 772 L-100 772 Z;M-100 705.01C201.33 730.92 202.4 748 499 748S803.27 736.31 1098 736.31S1397.78 729.26 1697 729.26S2000.52 706.57 2296 706.57L1697 772 L-100 772 Z;M-100 746.14C202.77 704.21 200.01 706.78 499 706.78S803.5 727.01 1098 727.01S1401.26 714.36 1697 714.36S1998.73 708.62 2296 708.62L1697 772 L-100 772 Z"></animate>
-  <animateTransform attributeName="transform" type="translate" dur="2.5s" begin="0s" repeatCount="indefinite" values="0;10;0" calcMode="spline" keySplines="0.3 0 0.7 1;0.3 0 0.7 1"></animateTransform>
-</path></g>
-</svg>
