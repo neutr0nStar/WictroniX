@@ -208,7 +208,7 @@ export default function Home() {
             alt="growth"
           />
           <div>
-            - “Go for Greatness. Everything else is a waste of time.” - Marianne
+            “Go for Greatness. Everything else is a waste of time.” - Marianne
             Williamson. We believe that greatness begins beyond our comfort zone
             and we always strive to do so. We push ourselves, innovate and go
             beyond our limits to achieve something legendary.
@@ -229,7 +229,7 @@ export default function Home() {
           <p className={styles.whatwedo}>
             <ul>
             <li>Flexible and dynamic Pricing according to the situation and needs of the startup/business.</li>
-            <li>Get access to the fastest growing netGet access to the fastest-growing network of startups, entrepreneurs, businesses, investors, and industry experts.</li>
+            <li>Get access to the fastest-growing network of startups, entrepreneurs, businesses, investors, and industry experts.</li>
             <li>We offer all the execution integrated under one roof. Grow your startup easily as you get everything in one place with fast and efficient working.</li>
             <li>Collaborate with other startups, businesses, programs, experts, and mentors. Find and connect with investors easily.</li>
             <li>You can collaborate and work with us on WictroniX&apos;s revolutionary flagship projects which involve technologies like AI/Ml, Web 3.0, IoT, Cybersecurity, Big Data, etc.</li>
