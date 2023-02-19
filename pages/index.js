@@ -228,11 +228,11 @@ export default function Home() {
           <div className={styles.title1}>Why WictroniX?</div>
           <p className={styles.whatwedo}>
             <ul>
-            <li>Flexible and dynamic Pricing acoording to the situation and needs of the startup/business.</li>
-            <li>Get access to the fastest growing network of startups,entrepreneurs, businesses, investors and industry experts. </li>
-            <li>We offer all the execution integrated under one roof. Grow your startup easily as you get everything at one place with fast and efficient working.</li>
-            <li>Collaborate with other startups,businesses,programs, experts and mentors. Find and connect with investors easily.</li>
-            <li>You can be collaborate and work with us on WictroniX&apos;s revolutionary flagship projects which involves technologies like AI/Ml, Web 3.0, IoT, Cybersecurity, Big Data etc. </li>
+            <li>Flexible and dynamic Pricing according to the situation and needs of the startup/business.</li>
+            <li>Get access to the fastest growing netGet access to the fastest-growing network of startups, entrepreneurs, businesses, investors, and industry experts.</li>
+            <li>We offer all the execution integrated under one roof. Grow your startup easily as you get everything in one place with fast and efficient working.</li>
+            <li>Collaborate with other startups, businesses, programs, experts, and mentors. Find and connect with investors easily.</li>
+            <li>You can collaborate and work with us on WictroniX&apos;s revolutionary flagship projects which involve technologies like AI/Ml, Web 3.0, IoT, Cybersecurity, Big Data, etc.</li>
             </ul> 
           </p>
       </section></div>

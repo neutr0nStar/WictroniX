@@ -58,10 +58,9 @@ export default function MainContainer() {
             WictroniX makes sure that you concentrate on your product, which is
             what you are best at, and that we will take care of all the other
             business-related elements.</li>
-            <li>WictroniX helps a startup or business in all aspects such as from product Development, Tech, Marketing,Management, Market reserach, HR,
-               Finance, Complainces, Business strategy, raising funds, networking etc.</li>
+            <li>WictroniX helps a startup or business in all aspects such as Product Development, Tech, Marketing, Management, Market research, HR, Finance, Compliance, Business strategy, raising funds, networking, etc.</li>
             <li>You = Focus on your Product.<br></br>WictroniX = Looks after all other elements (just like a co-founder).</li>
-            <li>We aim to solve the burning hair problems of the courageous and inovative entrepreneurs so that they can create value in society and achieve their dreams.</li>
+            <li>We aim to solve the burning hair problems of courageous and innovative entrepreneurs so that they can create value in society and achieve their dreams.</li>
             </ul> 
           </p>
           <p style={{ lineHeight: "1.75rem", fontSize: "1.1rem",textAlign:"justify" }}>
