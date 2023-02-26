@@ -49,7 +49,7 @@ export default function About() {
         <div
           style={{
             backgroundColor: "#99e0ff",
-            padding: "1rem",
+            padding: "0.8rem",
             borderRadius: "1rem",
             color: "white",
           }}
@@ -59,7 +59,7 @@ export default function About() {
           </div>
           <div
             style={{
-              width: "75%",
+              width: "80%",
               marginInline: "auto",
               marginBottom: "3rem",
               paddingBottom: "3rem",

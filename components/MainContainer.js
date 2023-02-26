@@ -51,21 +51,20 @@ export default function MainContainer() {
           <div className={styles.title}>What do we do ?</div>
           <p className={styles.whatwedo}>
             <ul>
-              <li>WictroniX offers a comprehensive & integrated end-to-end execution
+              <li>WictroniX offers integrated end-to-end execution
             needed to launch, sustain and grow a startup/business. </li>
             <li>Making a quality product is one thing; building, expanding, and maintaining a
             business that revolves around that product is quite another.
             WictroniX makes sure that you concentrate on your product, which is
             what you are best at, and that we will take care of all the other
             business-related elements.</li>
-            <li>WictroniX helps a startup or business in all aspects such as Product Development, Technology, Marketing, Management, Market Research, HR, Finance, Compliance, Business strategy, raising funds, networking, etc.</li>
+            <li>WictroniX helps in all aspects such as Product Development, Technology, Marketing, Management, Research, HR, Finance, Compliance, Strategy, raising funds, networking, etc.</li>
             <li>You = Focus on your Product.<br></br>WictroniX = Looks after all other elements (just like a co-founder).</li>
-            <li>We aim to solve the burning hair problems of courageous and innovative entrepreneurs so that they can create value in society and achieve their dreams.</li>
             </ul> 
           </p>
           <p style={{ lineHeight: "1.75rem", fontSize: "1.1rem",textAlign:"justify" }}>
            We will give you a solid and effective
-            execution as the backbone of your startup.In order to begin your journey from good to great, integrate with
+            execution as the backbone of your startup. In order to begin your journey from good to great, integrate with
             WictroniX. Let us demonstrate how we may assist:
           </p>
           <div style={{ display: "flex", justifyContent: "center" }}>

@@ -1,8 +1,7 @@
 .root {
     width: 75vw;
     height: 200px;
-    margin-block: 3rem;
-    margin-left: -3rem;
+    margin: 2.5rem 0rem;
     padding: 1rem;
     background-color: #ccdeff;
     border-radius: 1rem;
@@ -17,8 +16,7 @@
 
 @media (max-width: 768px) {
     .root {
-        width: 90vw;
+        width: 80vw;
         font-size: 1.5rem;
-        margin-left: -2rem;
     }
 }

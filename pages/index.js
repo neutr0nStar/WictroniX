@@ -161,11 +161,10 @@ export default function Home() {
             }}
           />
           <div>
-            “Tactics without Strategy is the noise before defeat” - Sun Tzu. A
-            strategy helps companies define their businesses and gives them a
+            “Tactics without Strategy is the noise before defeat” - Sun Tzu. Strategy helps companies define their businesses and gives them a
             set of values and a purpose. Great businesses require great
             strategies, and we develop our business plans by drawing inspiration
-            from outstanding businesses, people, events, and publications.
+            from outstanding businesses, people, and events.
           </div>
         </div>
       </ParallaxSeg>

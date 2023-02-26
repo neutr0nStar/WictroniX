@@ -12,7 +12,7 @@ export default function ParallaxSeg({ title, children, bgImg }) {
           <div className={styles.title} data-aos="fade-down">
             {title}
           </div>
-          {children}
+          <p className={styles.text}>{children}</p>
         </div>
       </div>
     </div>

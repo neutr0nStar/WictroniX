@@ -14,7 +14,7 @@ export default function AnimatedPageTitle({ children }) {
     <div
       className={styles.root}
       style={{
-        height: loading ? "calc(100vh - 2rem)" : "20rem",
+        height: loading ? "calc(100vh - 6rem)" : "20rem",
       }}
     >
       <div
