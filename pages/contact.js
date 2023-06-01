@@ -181,20 +181,20 @@ export default function Contact() {
               </Link>
             </div>
             <div>
-              <h5>Facebook</h5>
+              <h5>Contact</h5>
               <Link
                 className={styles.contactLink}
                 height={20}
                 style={{ marginRight: "0.5rem" }}
-                href="https://www.facebook.com/wictronix/"
+                href="https://twitter.com/WictroniX"
               >
                 <Image
-                  src={require("../public/images/facebook.png")}
+                  src={require("../public/images/phone.png")}
                   height={20}
                   style={{ marginRight: "0.5rem" }}
-                  alt="facebook"
+                  alt="twitter"
                 />
-                WictroniX
+                +91 9574663353
               </Link>
             </div>
           </div>
