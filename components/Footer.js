@@ -130,17 +130,25 @@ export default function Footer() {
         <div>
           Copyright © 2022 - <strong>WictroniX</strong>. All rights reserved
           <br />
-          <Link style={{ color: "white" }} href="/privacyPolicy">
+          <Link style={{ color: "white" }} href="/Privacy-Policy">
             Privacy Policy
+          </Link>{" "}
+          ||{" "}
+          <Link style={{ color: "white" }} href="/Support">
+            Support
           </Link>{" "}
           ||{" "}
           <Link style={{ color: "white" }} href="/disclaimer">
             Disclaimer
           </Link>{" "}
-          ||
+          ||{" "}
           <Link style={{ color: "white" }} href="/termsOfUse">
             Terms of Use
           </Link>
+          ||{" "}
+          <Link style={{ color: "white" }} href="/Cancellation&refund">
+            Cancellation-Refund
+          </Link>{" "}
         </div>
       </div>
     </footer>
