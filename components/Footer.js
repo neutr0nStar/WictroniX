@@ -21,7 +21,57 @@ export default function Footer() {
       </div>
       {isMobile ? <br /> : null}
       <div className={styles.linksContainer}>
-        <h2>Links</h2>
+        <h2>Support</h2>
+        <div
+          style={{ marginTop: "0.5rem", cursor: "pointer" }}
+          onClick={() => {
+            router.push("/Privacy-Policy");
+          }}
+        >
+          Privacy-Policy
+        </div>
+        {/* <div style={{ marginTop: "0.5rem" }}>FAQs</div> */}
+        {/* <div style={{ marginTop: "0.5rem" }}>Gallery</div> */}
+        <div
+          style={{ marginTop: "0.5rem", cursor: "pointer" }}
+          onClick={() => {
+            router.push("/Support");
+          }}
+        >
+          Support
+        </div>
+        <div
+          style={{ marginTop: "0.5rem", cursor: "pointer" }}
+          onClick={() => {
+            router.push("/disclaimer");
+          }}
+        >
+          Disclaimer
+        </div>
+
+        <div
+          style={{ marginTop: "0.5rem", cursor: "pointer" }}
+          onClick={() => {
+            router.push("/termsOfUse");
+          }}
+        >
+          Terms Of Use
+        </div>
+
+        <div
+          style={{ marginTop: "0.5rem", cursor: "pointer" }}
+          onClick={() => {
+            router.push("/Cancellation&refund");
+          }}
+        >
+          Cancellation-Refund
+        </div>
+        {isMobile ? <br /> : null}
+        
+      </div>
+
+      <div className={styles.linksContainer2}>
+        <h2>Company</h2>
         <div
           style={{ marginTop: "0.5rem", cursor: "pointer" }}
           onClick={() => {
@@ -30,6 +80,17 @@ export default function Footer() {
         >
           Our Team
         </div>
+
+        <div
+          style={{ marginTop: "0.5rem", cursor: "pointer" }}
+          onClick={() => {
+            router.push("/execution");
+          }}
+        >
+          Execution
+        </div>
+
+        
         {/* <div style={{ marginTop: "0.5rem" }}>FAQs</div> */}
         {/* <div style={{ marginTop: "0.5rem" }}>Gallery</div> */}
         <div
@@ -48,8 +109,19 @@ export default function Footer() {
         >
           Pricing
         </div>
+
+        <div
+          style={{ marginTop: "0.5rem", cursor: "pointer" }}
+          onClick={() => {
+            router.push("/contact");
+          }}
+        >
+          Contact Us
+        </div>
         {isMobile ? <br /> : null}
+        
       </div>
+      
       {isMobile ? <br /> : null}
       <div className={styles.socialContainer}>
         <h2>Connect with Us</h2>

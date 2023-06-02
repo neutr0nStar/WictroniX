@@ -187,7 +187,7 @@ export default function Contact() {
                 className={styles.contactLink}
                 height={20}
                 style={{ marginRight: "0.5rem" }}
-                href="https://www.facebook.com/wictronix/"
+                href="https://www.google.com/maps/place/WictroniX/@22.2850813,73.202197,14z/data=!4m6!3m5!1s0x395fc55c70ce64ef:0xa1911c12a3084a52!8m2!3d22.2876624!4d73.2049865!16s%2Fg%2F11tn7029dm?entry=ttu"
               >
                 <Image
                   src={require("../public/images/pin-point.png")}
@@ -197,6 +197,7 @@ export default function Contact() {
                 />
                 5,Maharshi Arvind Society, beside Khanderao Mandir R.V Desai Road, Navapura,Vadodara, 390001
               </Link>
+              
             </div>
           </div>
         </div>

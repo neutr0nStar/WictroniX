@@ -13,30 +13,37 @@
     display: flex;
     justify-content: space-between;
     font-size: 1.1rem;
+    
 }
 
 .logo {
     height: 5rem;
+    position: relative;
+    right: 110px;
 }
 
 .logoContainerm, .linksContainer, .socialContainer {
-    flex: 1;    
+    flex: 1;  
+    
 }
 
 .socialContainer {
     flex: 2;
+    position: relative;
+    left: 140px; 
 }
 
 .socialContainer > h2 {
-    margin-top: -0.25rem;
+    margin-top: 0.5rem;
 }
 
 .linksContainer {
     max-width: 99rem;
     display: flex;
     flex-direction: column;
+    position: relative;
+    left: 200px; 
 }
-
 
 .linksContainer h2 {
     margin-block: 0.5rem;
@@ -47,6 +54,26 @@
     text-decoration: none;
     line-height: 1.8rem;
 }
+
+
+.linksContainer2 {
+    max-width: 99rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 300px; 
+}
+
+.linksContainer2 h2 {
+    margin-block: 0.5rem;
+}
+
+.linksContainer2 a {
+    color: white;
+    text-decoration: none;
+    line-height: 1.8rem;
+}
+
 
 @media (max-width: 768px) {
     .root {
@@ -61,5 +88,7 @@
     .logo {
         height: 4rem;
         width: auto;
+        
+        
     }
 }
