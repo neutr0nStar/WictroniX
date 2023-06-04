@@ -9,7 +9,7 @@
     width: 100%;
     background-color: white;
     border-radius: 1rem 1rem 0 0;
-    padding: 5rem 4rem
+    padding: 5rem 8rem
 }
 
 .sfsbfb {
@@ -19,6 +19,11 @@
     color: #001d3f;
     animation: sfsbgbAni 1s;
     animation-delay: 1s;
+}
+
+.sfsbfb1 {
+    text-align: center;
+    
 }
 
 .title {

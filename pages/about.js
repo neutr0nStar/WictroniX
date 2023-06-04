@@ -71,7 +71,8 @@ export default function About() {
               textAlign: isMobile ? "center" : "",
             }}
           >
-            <div style={{ color: "black" }}>
+          <div className={styles.sfsbfb1}>
+          <div style={{ color: "black" }}>
               There are eccentrics, outcasts, rebels, troublemakers, square pegs
               in round holes, with a different vision, and a burning desire to
               challenge the Status Quo who go for greatness.
@@ -82,6 +83,8 @@ export default function About() {
               strive for greatness by inspiring us to go beyond our comfort
               zones.
             </div>
+          </div>
+            
           </div>
         </div>
         <br />
