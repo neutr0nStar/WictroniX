@@ -8,6 +8,7 @@ import MainContainer from "../components/MainContainer";
 import Navbar from "../components/Navbar";
 import OurArsenal from "../components/OurArsenal";
 import OurClients from "../components/OurClients";
+import Patners from "../components/Patners";
 import ParallaxSeg from "../components/ParallaxSeg";
 import styles from "../styles/Home.module.css";
 import ConnectWithUs from "../components/ConnectWithUs";
@@ -237,6 +238,9 @@ export default function Home() {
       </section></div>
       
       <OurClients />
+
+      <Patners />
+
       <ConnectWithUs />
      
       <Footer />
