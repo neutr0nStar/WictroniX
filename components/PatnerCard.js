@@ -7,6 +7,7 @@ import styles from "../styles/PatnerCard.module.css";
 export default function PatnerCard({
   imgSrc,
   name,
+  pos,
   des,
   // position,
   // email,
@@ -26,7 +27,8 @@ export default function PatnerCard({
           borderTop: cxo ? "8px solid #0059ff" : "none",
         }}
       >
-        <h2>{name}</h2>
+        <h3>{name}</h3>
+        <h4>{pos}</h4>
         <p>{des}</p>
       </div>
     </div>

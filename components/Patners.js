@@ -19,25 +19,28 @@ export default function About() {
       <div className={styles.rootContainer}>
       <div>
           <div className={styles.title} data-aos="zoom-out">
-            Our Patners
+            Our Partners
           </div>
           <div className={styles.teamCardContainer}>
             <PatnerCard
-              imgSrc={require("../public/images/Patners/finportal.png")}
-              name="Finportal – Finance and Compliance Partner"
+              imgSrc={require("../public/images/Patners/fin1.png")}
+              name="FINPORTAL"
+              pos="Finance and Compliance Partner"
               des="We are a financial management company lead by a team of CAs and CFAs with over a decade of experience in this field. Our motto is to cater all the financial requirements like taxation, finance, investment and insurance all under one roof."
               cxo
             />
             <PatnerCard
               imgSrc={require("../public/images/Patners/Pentagon.png")}
-              name="Pentagon System Services – Cloud Partner"
+              name="PENTAGON SYSTEM SERVICES"
+              pos="Cloud Partner"
               des="Pentagon is a trusted partner for the management of critical business needs, providing IT strategic consulting and managed services."
               cxo
             />
             <PatnerCard
-              imgSrc={require("../public/images/Patners/lst.png")}
-              name="LST Capital - Capital partner"
-              des="Capital Patner"
+              imgSrc={require("../public/images/Patners/lst1.png")}
+              name="LST CAPITAL"
+              pos="Capital partner"
+              des="LST Capital specializes in financial risk management and uses AI/ML algorithms to create effective quantitative financial tools and models."
               cxo
             />
             {/* <PatnerCard
